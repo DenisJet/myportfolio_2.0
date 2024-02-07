@@ -3,16 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --black: 0, 0, 0;
+  --black: #111;
   --light-bg: #f7fdff;
   --purple: #bc00bc;
   --blue: #0381ff;
 }
+html {
+  height: 100%;
+}
 
 body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   color: rgb(var(--black));
   background: var(--light-bg);
+  background-image: url('/bg.png');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
 }
+
 
 @layer utilities {
   .text-balance {
