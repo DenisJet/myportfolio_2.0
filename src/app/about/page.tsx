@@ -7,7 +7,7 @@ export default function About(): JSX.Element {
           I have a great passion for Internet technologies and web development in particular. I started by studying the
           frontend, but today I also have experience writing the backend.
         </p>
-        <h2 className='text-xl font-semibold mb-2'>Professional Skillset</h2>
+        <h2 className='text-xl font-semibold mb-2'>Professional skills</h2>
         <div className='p-0 mt-2 flex items-start flex-wrap'>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>HTML</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>CSS</div>
