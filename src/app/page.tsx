@@ -1,6 +1,4 @@
-import Image from 'next/image';
-
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <main>
       <div className='container p-4 mx-auto max-w-4xl home-container w-full flex flex-col'>
