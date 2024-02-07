@@ -10,20 +10,17 @@ export default function MobileMenu(): JSX.Element {
     <div className='sm:hidden'>
       {open ? (
         <div className='absolute top-0 left-0 h-screen w-screen bg-slate-900 bg-opacity-95 text-white z-50 py-2 px-4'>
-          <Link href='/' className='text-white text-opacity-70 hover:text-opacity-100 text-xl'>
-            Denis Kalkopf
-          </Link>
           <nav className='flex flex-col w-full'>
-            <Link href='/' className='text-white text-xl px-8 py-4'>
+            <Link href='/' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
               Home
             </Link>
-            <Link href='/about' className='text-white text-xl px-8 py-4'>
+            <Link href='/about' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
               About
             </Link>
-            <Link href='/portfolio' className='text-white text-xl px-8 py-4'>
+            <Link href='/portfolio' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
               Portfolio
             </Link>
-            <Link href='/contact' className='text-white text-xl px-8 py-4'>
+            <Link href='/contact' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
               Contact
             </Link>
           </nav>
