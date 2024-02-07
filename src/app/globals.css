@@ -4,15 +4,26 @@
 
 :root {
   --black: 0, 0, 0;
+  --light-bg: #f7fdff;
+  --purple: #bc00bc;
+  --blue: #0381ff;
 }
 
 body {
   color: rgb(var(--black));
-  background: transparent;
+  background: var(--light-bg);
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.gradient {
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(45deg, var(--purple), var(--blue) 50%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-shadow: 2px 2px 15px rgba(0,0,0,.2);
 }
