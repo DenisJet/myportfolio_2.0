@@ -1,32 +1,17 @@
-'use client';
-
-import { FormEvent, useState } from 'react';
+// 'use client';
+// import { FormEvent, useState } from 'react';
 
 export default function Contact(): JSX.Element {
-  const [isSubmitted, setSubmitted] = useState<boolean>(false);
-  const [name, setName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [message, setMessage] = useState<string>('');
+  // const [isSubmitted, setSubmitted] = useState<boolean>(false);
+  // const [name, setName] = useState<string>('');
+  // const [email, setEmail] = useState<string>('');
+  // const [message, setMessage] = useState<string>('');
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const data = {
-      name,
-      email,
-      message,
-    };
-    fetch('/api/contact', {
-      method: 'post',
-      body: JSON.stringify(data),
-    });
-    console.log(data);
-  };
-
-  // const onSubmit = async (e: FormEvent) => {
-  //   e.preventDefault();
+  // const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  //   event.preventDefault();
 
   //   try {
-  //     const res = await fetch('/api/contact', {
+  //     const res = await fetch('/api', {
   //       method: 'POST',
   //       body: JSON.stringify({
   //         name,
@@ -39,6 +24,8 @@ export default function Contact(): JSX.Element {
   //     });
   //     if (res.status === 200) {
   //       setSubmitted(true);
+  //     } else {
+  //       console.error('Err');
   //     }
   //   } catch (err: any) {
   //     console.error('Err', err);
@@ -53,7 +40,7 @@ export default function Contact(): JSX.Element {
     <main>
       <div className='container p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-10'>Contact Me</h1>
-        <form onSubmit={handleSubmit} className='rounded border border-accent-2 bg-accent-1 p-4'>
+        <form onSubmit={onSubmit} className='rounded border border-accent-2 bg-accent-1 p-4'>
           <div className='mb-2'>
             <label htmlFor='name' className='block text-gray-700 text-sm font-bold mb-2'>
               Name
