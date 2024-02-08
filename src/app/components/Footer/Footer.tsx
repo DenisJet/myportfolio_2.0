@@ -4,7 +4,7 @@ import MobileMenu from '../MobileMenu/MobileMenu';
 export default function Footer(): JSX.Element {
   return (
     <footer className='flex mx-auto justify-center items-center sm:justify-between h-[40px] p-4 sm:flex-row flex-col-reverse w-full'>
-      <div className='flex space-x-2 md:mb-0 mb-2 text-sm'>
+      <div className='flex space-x-2 md:mb-0 mb-2 text-sm font-light'>
         <span>© 2024 - </span>
         <Link className='text-black' href='/about-this-site'>
           About this site
