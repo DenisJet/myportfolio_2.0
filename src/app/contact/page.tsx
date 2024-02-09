@@ -34,12 +34,13 @@ export default function Contact(): JSX.Element {
 
   return isSubmitted ? (
     <div className='container p-4 mx-auto max-w-4xl'>
-      <h1 className='gradient text-6xl font-bold mt-6 mb-10'>Thank you for your message!</h1>
+      <h1 className='gradient text-6xl font-bold mt-6 mb-3'>Thank you for your message!</h1>
     </div>
   ) : (
     <main>
       <div className='container p-4 mx-auto max-w-4xl'>
-        <h1 className='gradient text-6xl font-bold mt-6 mb-10'>Contact Me</h1>
+        <h1 className='gradient text-6xl font-bold mt-6 mb-3'>Contact Me</h1>
+        <p className='font-light mb-4 text-lg'>Interested in working with me? Drop me a note!</p>
         <form onSubmit={onSubmit} className='rounded border border-accent-2 bg-accent-1 p-4'>
           <div className='mb-2'>
             <label htmlFor='name' className='block text-gray-700 text-sm font-bold mb-2'>
@@ -51,6 +52,7 @@ export default function Contact(): JSX.Element {
               id='name'
               name='name'
               type='text'
+              required
               className='shadow appearance-none border rounded w-full py-2 px-3 
                 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
             />
@@ -64,7 +66,8 @@ export default function Contact(): JSX.Element {
               onChange={(e) => setEmail(e.target.value)}
               id='email'
               name='email'
-              type='text'
+              type='email'
+              required
               className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 
                 leading-tight focus:outline-none focus:shadow-outline'
             />
@@ -78,6 +81,7 @@ export default function Contact(): JSX.Element {
               onChange={(e) => setMessage(e.target.value)}
               id='message'
               name='message'
+              required
               className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight 
                 focus:outline-none focus:shadow-outline'
               rows={4}
