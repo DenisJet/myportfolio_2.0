@@ -18,8 +18,10 @@ export default function About(): JSX.Element {
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>TypeScript</div>
         </div>
         <div className='p-0 mt-2 flex items-start flex-wrap'>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>React</div>
+          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>React.Js</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Next.Js</div>
+        </div>
+        <div className='p-0 mt-2 flex items-start flex-wrap'>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Node.Js</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Nest.Js</div>
         </div>

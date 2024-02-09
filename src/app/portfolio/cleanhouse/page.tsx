@@ -13,7 +13,7 @@ export default function CleanHouse(): JSX.Element {
           task manager <strong className='font-medium'>Gulp</strong>. Implemented sliders using the library{' '}
           <strong className='font-medium'>SwiperJS</strong>. Images have been optimized.
         </p>
-        <p className='font-light mt-1 mb-4 text-lg'>It is possible to send a message about a call back.</p>
+        <p className='font-light mt-1 mb-4 text-lg'>Implemented the ability to send a message about a call back.</p>
         <p className='font-light mb-1 text-lg'>Additional resources:</p>
         <ul>
           <li>
