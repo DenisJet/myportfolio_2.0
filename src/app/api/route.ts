@@ -1,57 +1,52 @@
-//import { NextRequest, NextResponse } from 'next/server';
-//
-// export function POST(req: NextRequest) {
-//   console.log('Data', req.body);
-//   return NextResponse.json({ message: 'Hello from Next.js!' }, { status: 500 });
-// }
+import { NextRequest, NextResponse } from 'next/server';
+import mailer from 'nodemailer';
+import { Options } from 'nodemailer/lib/mailer';
 
-import FormData from 'form-data';
-import Mailgun from 'mailgun.js';
-import type { NextApiRequest, NextApiResponse } from 'next';
+const smtpTransport = mailer.createTransport({
+  //service: 'Yandex',
+  //pool: true,
+  host: 'smtp.yandex.ru',
+  port: 465,
+  secure: true,
+  auth: {
+    user: 'deniskalkopf@yandex.ru',
+    pass: 'daboesihiywncyij',
+  },
+  //tls: { rejectUnauthorized: false },
+  from: 'deniskalkopf <deniskalkopf@yandex.ru>',
+});
 
-const API_KEY = process.env.MAILGUN_API_KEY || '';
-const DOMAIN = process.env.MAILGUN_DOMAIN || '';
+const sendEmail = (message: Options) => {
+  smtpTransport.sendMail(message, function (error, info) {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log('Email sent successfully', info);
+    }
+    smtpTransport.close();
+  });
+};
 
-export async function POST(req: NextApiRequest, res: NextApiResponse) {
-  try {
-    const res = await fetch('/api', {
-      method: 'POST',
-      body: JSON.stringify({
-        name,
-        email,
-        message,
-      }),
-      headers: {
-        'content-type': 'application/json',
-      },
-    });
-  } catch (err: any) {
-    console.error('Err', err);
-  }
-
-  console.log('Data', req.body);
-
-  const mailgun = new Mailgun(FormData);
-  const client = mailgun.client({ username: 'api', key: API_KEY });
-
-  const { name, email, message } = req.body;
-
-  const messageData = {
-    from: 'Contact Form <contact@me.deniskalkopf.org>',
-    to: 'deniskalkopf@gmail.com',
-    subject: 'New Contact Form!',
-    text: `Hello,
-    You have a new form entry from: ${name} ${email}.
-    ${message}
+export async function POST(req: NextRequest, res: NextResponse) {
+  const data = await req.json();
+  console.log(data);
+  const message = {
+    to: 'deniskalkopf@yandex.ru',
+    subject: `Письмо с сайта deniskalkopf от ${data.name}`,
+    text: `
+      Name: ${data.name},
+      Email: ${data.email},
+      Message: ${data.message},
     `,
   };
-
-  try {
-    const emailRes = await client.messages.create(DOMAIN, messageData);
-    console.log(emailRes);
-  } catch (err: any) {
-    console.error('Error sending email', err);
-  }
-
-  res.status(200).json({ submitted: true });
+  sendEmail(message);
+  console.log(message);
+  return NextResponse.json(data);
 }
+
+// export async function POST(req: NextRequest, res: NextResponse) {
+//   const data = await req.json();
+//   console.log(data);
+
+//   return NextResponse.json(data);
+// }

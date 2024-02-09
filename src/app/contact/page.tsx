@@ -1,36 +1,36 @@
-// 'use client';
-// import { FormEvent, useState } from 'react';
+'use client';
+import { FormEvent, useState } from 'react';
 
 export default function Contact(): JSX.Element {
-  // const [isSubmitted, setSubmitted] = useState<boolean>(false);
-  // const [name, setName] = useState<string>('');
-  // const [email, setEmail] = useState<string>('');
-  // const [message, setMessage] = useState<string>('');
+  const [isSubmitted, setSubmitted] = useState<boolean>(false);
+  const [name, setName] = useState<string>('');
+  const [email, setEmail] = useState<string>('');
+  const [message, setMessage] = useState<string>('');
 
-  // const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
-  //   event.preventDefault();
+  const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
 
-  //   try {
-  //     const res = await fetch('/api', {
-  //       method: 'POST',
-  //       body: JSON.stringify({
-  //         name,
-  //         email,
-  //         message,
-  //       }),
-  //       headers: {
-  //         'content-type': 'application/json',
-  //       },
-  //     });
-  //     if (res.status === 200) {
-  //       setSubmitted(true);
-  //     } else {
-  //       console.error('Err');
-  //     }
-  //   } catch (err: any) {
-  //     console.error('Err', err);
-  //   }
-  // };
+    try {
+      const res = await fetch('/api', {
+        method: 'POST',
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+        }),
+        headers: {
+          'content-type': 'application/json',
+        },
+      });
+      if (res.status === 200) {
+        setSubmitted(true);
+      } else {
+        console.log('Err');
+      }
+    } catch (err: any) {
+      console.error('Err', err);
+    }
+  };
 
   return isSubmitted ? (
     <div className='container p-4 mx-auto max-w-4xl'>
