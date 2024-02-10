@@ -1,8 +1,22 @@
+import Image from 'next/image';
+import Link from 'next/link';
+
 export default function About(): JSX.Element {
   return (
     <main>
       <div className='container p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-3'>About Me</h1>
+        <div className='my-6 flex'>
+          <Link
+            href='https://assets.htmlacademy.ru/certificates/profession/39/1875311.pdf?1665069782&_ga=2.193242148.86894964.1665994142-270059664.1655958253'
+            className='m-5'
+          >
+            <Image src='/front-sert.png' alt='' width={100} height={50} className='w-full h-auto' />
+          </Link>
+          <Link href='https://assets.htmlacademy.ru/certificates/profession/47/1875311.pdf?1692890714' className='m-5'>
+            <Image src='/react-sert.png' alt='' width={100} height={50} className='w-full h-auto' />
+          </Link>
+        </div>
         <p className='font-light text-lg mb-5'>
           I have a great passion for Internet technologies and web development in particular. I started by studying the
           frontend, but today I also have experience writing the backend.
