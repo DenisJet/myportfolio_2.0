@@ -13,9 +13,12 @@ export default function MyTop(): JSX.Element {
           <strong>telegraf</strong>. Registration and authorization using <strong>passport-jwt</strong> are also
           implemented
         </p>
-        <p className='font-light mt-1 mb-4 text-lg'>
+        <p className='font-light mt-1 text-lg'>
           Implemented SSR on <strong>NextJS</strong>. There is dynamic routing, working with{' '}
-          <strong>React Hook Form</strong>, some animation using <strong>Frame Motion</strong> and much more...
+          <strong>React Hook Form</strong>, some animation using <strong>Frame Motion</strong>.
+        </p>
+        <p className='font-light mt-1 mb-4 text-lg'>
+          Working with <strong>Github Actions</strong>, <strong>Docker</strong> and much more...
         </p>
         <p className='font-light mb-1 text-lg'>Additional resources:</p>
         <ul>
