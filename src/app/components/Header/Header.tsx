@@ -14,9 +14,9 @@ export default function Header(): JSX.Element {
         <Link href='/portfolio' className='text-black text-opacity-70 hover:text-opacity-100'>
           Portfolio
         </Link>
-        <Link href='/contact' className='text-black text-opacity-70 hover:text-opacity-100'>
+        {/* <Link href='/contact' className='text-black text-opacity-70 hover:text-opacity-100'>
           Contact
-        </Link>
+        </Link> */}
       </nav>
       <MobileMenu />
     </header>

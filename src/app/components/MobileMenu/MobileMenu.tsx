@@ -20,9 +20,9 @@ export default function MobileMenu(): JSX.Element {
             <Link href='/portfolio' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
               Portfolio
             </Link>
-            <Link href='/contact' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
+            {/* <Link href='/contact' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
               Contact
-            </Link>
+            </Link> */}
           </nav>
           <button onClick={() => setOpen(false)} type='button' title='Close' className='absolute top-2 right-4 '>
             <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' className='w-6 h-6'>
