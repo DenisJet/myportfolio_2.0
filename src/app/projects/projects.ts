@@ -1,5 +1,32 @@
 export const projects = [
   {
+    id: '8',
+    link: '/portfolio/spotify-clone',
+    title: 'Spotify-Clone',
+    description: 'Full stack project, music platform.',
+    year: 2023,
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icon-next.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-mongo.svg',
+      '/icons/icon-mui.svg',
+    ],
+  },
+  {
+    id: '7',
+    link: '/portfolio/live-chat',
+    title: 'On-Line Chat',
+    description: 'Live chat.',
+    year: 2023,
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-postgresql.svg',
+      '/icons/socket-icon.svg',
+    ],
+  },
+  {
     id: '6',
     link: '/portfolio/my-top',
     title: 'My Top',
