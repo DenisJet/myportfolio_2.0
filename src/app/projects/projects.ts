@@ -1,9 +1,17 @@
 export const projects = [
   {
+    id: '4',
+    link: '/portfolio/github-seasch',
+    title: 'Github Seasch',
+    description: 'Service for searching repositories on Github by username.',
+    year: 2023,
+    iconsSrc: ['/icons/icon-typescript.svg'],
+  },
+  {
     id: '3',
     link: '/portfolio/baths-restoration',
     title: 'Baths restoration',
-    description: 'Semantic, adaptive layout, using tools such as Gulp, Pug, Bootstrap.',
+    description: 'Landing page with semantic, adaptive layout, using tools such as Gulp, Pug, Bootstrap.',
     year: 2023,
     iconsSrc: [
       '/icons/iconhtml.svg',
