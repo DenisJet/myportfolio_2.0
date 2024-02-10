@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Todo(): JSX.Element {
   return (
@@ -6,7 +7,7 @@ export default function Todo(): JSX.Element {
       <div className='container main p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl leading-tight font-bold mt-6 mb-5'>My ToDo List</h1>
         <p className='font-light mb-4 text-lg'>Task list app</p>
-        <img src='/projects/mytodo.png' alt='site image' />
+        <Image src='/projects/mytodo.png' alt='site image' width={1605} height={902} className='w-full h-auto' />
         <p className='font-light mt-4 text-lg'>
           The application implements the functionality of adding a new task indicating the title, description and
           status. It is also possible to change and delete existing tasks. The application is deployed on the server

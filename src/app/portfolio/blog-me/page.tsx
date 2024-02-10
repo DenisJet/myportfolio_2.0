@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function BlogMe(): JSX.Element {
   return (
@@ -8,7 +9,7 @@ export default function BlogMe(): JSX.Element {
         <p className='font-light mb-4 text-lg'>
           One of my educational projects. Blog, with the ability to write articles.
         </p>
-        <img src='/projects/blog-me.png' alt='site image' />
+        <Image src='/projects/blog-me.png' alt='site image' width={1218} height={687} className='w-full h-auto' />
         <p className='font-light mt-4 text-lg'>
           My first full stack project, during the writing of which I learned how to create my own backend. The project
           implements user registration and authorization. Reading, creating, deleting, changing articles. Uploading

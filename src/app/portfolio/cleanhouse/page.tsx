@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function CleanHouse(): JSX.Element {
   return (
@@ -6,7 +7,7 @@ export default function CleanHouse(): JSX.Element {
       <div className='container main p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-5'>Clean House</h1>
         <p className='font-light mb-4 text-lg'>Insect extermination service website.</p>
-        <img src='/projects/cleanhouse.png' alt='site image' />
+        <Image src='/projects/cleanhouse.png' alt='site image' width={1852} height={933} className='w-full h-auto' />
         <p className='font-light mt-4 text-lg'>
           Fully adaptive, semantic, valid, fluid, cross-browser layout. Using methodology <strong>BEM</strong>,
           preprocessor <strong>SASS-SCSS</strong>, task manager <strong>Gulp</strong>. Implemented sliders using the

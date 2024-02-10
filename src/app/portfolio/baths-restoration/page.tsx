@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function BathsRestoration(): JSX.Element {
   return (
@@ -6,7 +7,7 @@ export default function BathsRestoration(): JSX.Element {
       <div className='container main p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-5'>Baths Restoration</h1>
         <p className='font-light mb-4 text-lg'>Landing page.</p>
-        <img src='/projects/restoration.png' alt='site image' />
+        <Image src='/projects/restoration.png' alt='site image' width={1887} height={910} className='w-full h-auto' />
         <p className='font-light mt-4 mb-4 text-lg'>
           A simple landing page, during the creation of which I became acquainted with the
           <strong> Pug</strong> template engine, which I liked for its convenient ability to create separate blocks for

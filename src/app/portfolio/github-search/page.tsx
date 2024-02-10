@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function GithubSearch(): JSX.Element {
   return (
@@ -6,7 +7,7 @@ export default function GithubSearch(): JSX.Element {
       <div className='container main p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-5'>Github Seasch</h1>
         <p className='font-light mb-4 text-lg'>Service for searching repositories on Github by username.</p>
-        <img src='/projects/githubsearch.png' alt='site image' />
+        <Image src='/projects/githubsearch.png' alt='site image' width={1894} height={883} className='w-full h-auto' />
         <p className='font-light mt-4 text-lg'>
           Not a big application, allows you to find repositories on Github by user name. The function of adding and
           removing repository from favorites is implemented.

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function MyTop(): JSX.Element {
   return (
@@ -6,7 +7,7 @@ export default function MyTop(): JSX.Element {
       <div className='container main p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-5'>My Top</h1>
         <p className='font-light mb-4 text-lg'>One of my educational projects. Rating of courses, services, books...</p>
-        <img src='/projects/mytop.png' alt='site image' />
+        <Image src='/projects/mytop.png' alt='site image' width={1889} height={909} className='w-full h-auto' />
         <p className='font-light mt-4 text-lg'>
           Using <strong>NestJS</strong> and <strong>MongoDB</strong>, an api for creating, deleting, editing, and
           searching pages and products has been implemented. Telegram bot has been integrated using{' '}
