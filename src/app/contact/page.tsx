@@ -34,7 +34,7 @@ export default function Contact(): JSX.Element {
 
   return isSubmitted ? (
     <div className='container p-4 mx-auto max-w-4xl'>
-      <h1 className='gradient text-6xl font-bold mt-6 mb-3'>Thank you for your message!</h1>
+      <h1 className='gradient text-6xl leading-tight font-bold mt-6 mb-3'>Thank you for your message!</h1>
     </div>
   ) : (
     <main>
