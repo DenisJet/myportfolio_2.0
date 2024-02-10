@@ -1,5 +1,13 @@
 export const projects = [
   {
+    id: '5',
+    link: '/portfolio/my-top',
+    title: 'My Top',
+    description: 'Educational full stack project. Service for rating courses, services, books...',
+    year: 2023,
+    iconsSrc: ['/icons/icon-typescript.svg', '/icons/icons-nest.svg', '/icons/icon-next.svg', '/icons/icon-mongo.svg'],
+  },
+  {
     id: '4',
     link: '/portfolio/github-search',
     title: 'Github Seasch',
