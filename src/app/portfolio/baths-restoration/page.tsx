@@ -9,9 +9,9 @@ export default function BathsRestoration(): JSX.Element {
         <img src='/projects/restoration.png' alt='site image' />
         <p className='font-light mt-4 mb-4 text-lg'>
           A simple landing page, during the creation of which I became acquainted with the
-          <strong className='font-medium'> Pug</strong> template engine, which I liked for its convenient ability to
-          create separate blocks for layout. I also got acquainted with
-          <strong className='font-medium'> Bootstrap</strong>, which greatly speeds up the layout.
+          <strong> Pug</strong> template engine, which I liked for its convenient ability to create separate blocks for
+          layout. I also got acquainted with
+          <strong> Bootstrap</strong>, which greatly speeds up the layout.
         </p>
         <p className='font-light mb-1 text-lg'>Additional resources:</p>
         <ul>

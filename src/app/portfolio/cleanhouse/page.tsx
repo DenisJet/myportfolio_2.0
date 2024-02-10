@@ -8,10 +8,9 @@ export default function CleanHouse(): JSX.Element {
         <p className='font-light mb-4 text-lg'>Insect extermination service website.</p>
         <img src='/projects/cleanhouse.png' alt='site image' />
         <p className='font-light mt-4 text-lg'>
-          Fully adaptive, semantic, valid, fluid, cross-browser layout. Using methodology{' '}
-          <strong className='font-medium'>BEM</strong>, preprocessor <strong className='font-medium'>SASS-SCSS</strong>,
-          task manager <strong className='font-medium'>Gulp</strong>. Implemented sliders using the library{' '}
-          <strong className='font-medium'>SwiperJS</strong>. Images have been optimized.
+          Fully adaptive, semantic, valid, fluid, cross-browser layout. Using methodology <strong>BEM</strong>,
+          preprocessor <strong>SASS-SCSS</strong>, task manager <strong>Gulp</strong>. Implemented sliders using the
+          library <strong>SwiperJS</strong>. Images have been optimized.
         </p>
         <p className='font-light mt-1 mb-4 text-lg'>Implemented the ability to send a message about a call back.</p>
         <p className='font-light mb-1 text-lg'>Additional resources:</p>

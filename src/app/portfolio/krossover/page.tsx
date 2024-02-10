@@ -8,7 +8,7 @@ export default function Krossover(): JSX.Element {
         <p className='font-light mb-4 text-lg'>Оn-line store.</p>
         <img src='/projects/krossover.png' alt='site image' />
         <p className='font-light mt-4 mb-4 text-lg'>
-          A site for selling shoes and clothing online. Created with <strong className='font-medium'>WordPress</strong>.
+          A site for selling shoes and clothing online. Created with <strong>WordPress</strong>.
         </p>
         <p className='font-light mb-1 text-lg'>Additional resources:</p>
         <ul>

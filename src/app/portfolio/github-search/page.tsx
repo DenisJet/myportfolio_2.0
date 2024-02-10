@@ -12,9 +12,8 @@ export default function GithubSearch(): JSX.Element {
           removing repository from favorites is implemented.
         </p>
         <p className='font-light mt-1 mb-4 text-lg'>
-          Проект создан с помощью <strong className='font-medium'>React</strong>, Redux
-          <strong className='font-medium'>RTKQuery</strong>, <strong className='font-medium'>Tailwind CSS</strong>,
-          <strong className='font-medium'> Axios</strong>. Hosted on Netlify.
+          The project was created using <strong>TypeScript</strong>, <strong>React</strong>,<strong> RTKQuery</strong>,{' '}
+          <strong>Tailwind CSS</strong>,<strong> Axios</strong>. Hosted on Netlify.
         </p>
         <p className='font-light mb-1 text-lg'>Additional resources:</p>
         <ul>
@@ -28,8 +27,12 @@ export default function GithubSearch(): JSX.Element {
             </Link>
           </li>
           <li>
-            <Link href='https://github.com/DenisJet/CleanHouse' target='_blank' className='font-light hover:underline'>
-              - https://github.com/DenisJet/CleanHouse
+            <Link
+              href='https://github.com/DenisJet/github-search'
+              target='_blank'
+              className='font-light hover:underline'
+            >
+              - https://github.com/DenisJet/github-search
             </Link>
           </li>
         </ul>
