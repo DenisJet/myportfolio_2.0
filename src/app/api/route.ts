@@ -10,7 +10,6 @@ const client = new SMTPClient({
 
 export async function POST(req: NextRequest, res: NextResponse) {
   const data = await req.json();
-  console.log(data);
   client.send(
     {
       text: `
