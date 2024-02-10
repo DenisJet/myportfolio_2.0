@@ -9,11 +9,16 @@ export default function About(): JSX.Element {
         <div className='my-6 flex'>
           <Link
             href='https://assets.htmlacademy.ru/certificates/profession/39/1875311.pdf?1665069782&_ga=2.193242148.86894964.1665994142-270059664.1655958253'
-            className='m-5'
+            target='_blank'
+            className='m-5 hover:opacity-100 opacity-75'
           >
             <Image src='/front-sert.png' alt='' width={100} height={50} className='w-full h-auto' />
           </Link>
-          <Link href='https://assets.htmlacademy.ru/certificates/profession/47/1875311.pdf?1692890714' className='m-5'>
+          <Link
+            href='https://assets.htmlacademy.ru/certificates/profession/47/1875311.pdf?1692890714'
+            target='_blank'
+            className='m-5 hover:opacity-100 opacity-75'
+          >
             <Image src='/react-sert.png' alt='' width={100} height={50} className='w-full h-auto' />
           </Link>
         </div>
