@@ -1,6 +1,20 @@
 export const projects = [
   {
     id: '8',
+    link: '/portfolio/todo',
+    title: 'My ToDo List',
+    description: 'Full stack project, task list app.',
+    year: 2024,
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icon-next.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-mongo.svg',
+      '/icons/icon-docker.svg',
+    ],
+  },
+  {
+    id: '8',
     link: '/portfolio/spotify-clone',
     title: 'Spotify-Clone',
     description: 'Full stack project, music platform.',
@@ -32,7 +46,13 @@ export const projects = [
     title: 'My Top',
     description: 'Educational full stack project. Service for rating courses, services, books...',
     year: 2023,
-    iconsSrc: ['/icons/icon-typescript.svg', '/icons/icon-next.svg', '/icons/icons-nest.svg', '/icons/icon-mongo.svg'],
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icon-next.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-mongo.svg',
+      '/icons/icon-docker.svg',
+    ],
   },
   {
     id: '5',

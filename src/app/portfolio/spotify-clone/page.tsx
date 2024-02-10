@@ -14,7 +14,9 @@ export default function SpotifyClone(): JSX.Element {
         <p className='font-light mt-1 text-lg'>
           The project was created using <strong>Nest JS, SSR на Next JS, TypeScript, Mongo DB, Material Ui</strong>.
         </p>
-        <p className='font-light mt-1 mb-4 text-lg'>Currently in final stages of development</p>
+        <p className='font-light mt-1 mb-4 text-lg'>
+          The main set of functions has already been implemented. But the project is still under development.
+        </p>
         <p className='font-light mb-1 text-lg'>Additional resources:</p>
         <ul>
           <li>
