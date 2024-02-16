@@ -5,7 +5,7 @@ export default function Home(): JSX.Element {
         <div className='text-[5.8rem] font-bold mb-4 leading-[5.5rem] md:leading-[6.4rem] xl:leading-[7rem] mt-8 sm:mt-28 gradient'>
           Hi, my name is Denis
         </div>
-        <div className='text-4xl font-light'>I&apos;m a web developer.</div>
+        <div className='text-4xl font-light'>I&apos;m a full stack, web developer.</div>
       </div>
     </main>
   );
