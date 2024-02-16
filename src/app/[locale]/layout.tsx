@@ -19,7 +19,7 @@ export default function RootLayout({
   params: { locale: string };
 }>) {
   return (
-    <html lang='en'>
+    <html lang={locale}>
       <body className={inter.className}>
         <Header />
         {children}
