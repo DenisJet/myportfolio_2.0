@@ -26,7 +26,7 @@ export default function About(): JSX.Element {
           </Link>
         </div>
         <p className='font-light text-lg mb-5'>{t('text')}</p>
-        <h2 className='text-xl font-semibold mb-2'>{t('title-2')}</h2>
+        <h2 className='text-xl font-semibold mb-4'>{t('title-2')}</h2>
         <div className='p-0 mt-2 flex items-start flex-wrap'>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>HTML</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>CSS</div>
