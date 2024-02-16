@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import { Suspense } from 'react';
+import Metrika from './components/Metrika/Metrika';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -22,6 +24,9 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Suspense>
+          <Metrika />
+        </Suspense>
       </body>
     </html>
   );
