@@ -1,5 +1,5 @@
-import { projects } from '../../projects/projects';
-import ProjectCard, { ProjectProps } from '../../components/ProjectCard/ProjectCard';
+import { projects } from '../../../projects/projects';
+import ProjectCard, { ProjectProps } from '../../../components/ProjectCard/ProjectCard';
 
 export default function Portfolio(): JSX.Element {
   return (

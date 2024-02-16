@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from '@/navigation';
 import MobileMenu from '../MobileMenu/MobileMenu';
 
 export default function Header(): JSX.Element {
