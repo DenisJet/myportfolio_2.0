@@ -1,9 +1,9 @@
-export const projects = [
+export const projectsRu = [
   {
     id: '8',
     link: '/portfolio/todo',
     title: 'My ToDo List',
-    description: 'Full stack project, task list app.',
+    description: 'Фулл стек приложение для составления списка задач.',
     year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
@@ -17,7 +17,7 @@ export const projects = [
     id: '8',
     link: '/portfolio/spotify-clone',
     title: 'Spotify-Clone',
-    description: 'Full stack project, music platform.',
+    description: 'Музыкальная платформа',
     year: 2023,
     iconsSrc: [
       '/icons/icon-typescript.svg',
@@ -31,7 +31,7 @@ export const projects = [
     id: '7',
     link: '/portfolio/live-chat',
     title: 'On-Line Chat',
-    description: 'Live chat.',
+    description: 'Он-лайн чат',
     year: 2023,
     iconsSrc: [
       '/icons/icon-typescript.svg',
@@ -44,7 +44,7 @@ export const projects = [
     id: '6',
     link: '/portfolio/my-top',
     title: 'My Top',
-    description: 'Educational full stack project. Service for rating courses, services, books...',
+    description: 'Учебный фулл стек проект. Сервис для рейтинга курсов, услуг, книг...',
     year: 2023,
     iconsSrc: [
       '/icons/icon-typescript.svg',
@@ -58,7 +58,7 @@ export const projects = [
     id: '5',
     link: '/portfolio/github-search',
     title: 'Github Seasch',
-    description: 'Service for searching repositories on Github by username.',
+    description: 'Сервис для поиска репозиториев на Github по имени пользователя.',
     year: 2023,
     iconsSrc: [
       '/icons/icon-typescript.svg',
@@ -72,7 +72,7 @@ export const projects = [
     id: '4',
     link: '/portfolio/blog-me',
     title: 'Blog Me',
-    description: 'Educational full stack project. Blog, with the ability to write articles.',
+    description: 'Учебный фулл стек проект. Блог, с возможностью написания статей.',
     year: 2023,
     iconsSrc: [
       '/icons/icon-javascript.svg',
@@ -88,7 +88,8 @@ export const projects = [
     id: '3',
     link: '/portfolio/baths-restoration',
     title: 'Baths restoration',
-    description: 'Landing page with semantic, adaptive layout, using tools such as Gulp, Pug, Bootstrap.',
+    description:
+      'Посадочная страница с семантической, адаптивной версткой, с использованием таких инструментов, как Gulp, Pug, Bootstrap.',
     year: 2023,
     iconsSrc: [
       '/icons/iconhtml.svg',
@@ -103,7 +104,7 @@ export const projects = [
     id: '2',
     link: '/portfolio/cleanhouse',
     title: 'Clean House',
-    description: 'Semantic, valid, adaptive, fluid, cross-browser website layout for the Clean House company.',
+    description: 'Семантическая, валидная, адаптивная, кроссбраузерная верстка сайта для компании "Чистый дом".',
     year: 2023,
     iconsSrc: [
       '/icons/iconhtml.svg',
@@ -117,7 +118,7 @@ export const projects = [
     id: '1',
     link: '/portfolio/krossover',
     title: 'Krossover',
-    description: 'Оn-line store for selling shoes and clothing.',
+    description: 'Онлайн-магазин по продаже обуви и одежды.',
     year: 2022,
     iconsSrc: ['/icons/iconhtml.svg', '/icons/iconcss.svg', '/icons/icon-wordpress.svg'],
   },

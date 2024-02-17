@@ -14,15 +14,15 @@ export default function ProjectCard(project: ProjectProps): JSX.Element {
   return (
     <Link
       href={project.link}
-      className='group/portfolio-item text-black bg-white flex flex-col justify-between p-2 opacity-70 shadow-sm hover:opacity-100 hover:shadow-lg rounded-lg transition-all'
+      className='group/portfolio-item text-black bg-white flex flex-col justify-start p-2 opacity-70 shadow-sm hover:opacity-100 hover:shadow-lg rounded-lg transition-all'
     >
       <div className='flex gap-1 mt-1 mb-2'>
         {project.iconsSrc &&
           project.iconsSrc.map((src) => <img key={src} src={src} alt='' className='max-w-[20px] max-h-[20px]' />)}
       </div>
-      <div className='font-bold'>{project.title}</div>
-      <div className='excerpt'>{project.description}</div>
-      <div className='flex justify-between items-center mt-2'>
+      <div className='font-bold mb-3'>{project.title}</div>
+      <div className='excerpt mb-3'>{project.description}</div>
+      <div className='flex justify-between items-center mb-0 mt-auto'>
         <div className='italic text-sm text-gray-700'>{project.year}</div>
         <svg
           xmlns='http://www.w3.org/2000/svg'

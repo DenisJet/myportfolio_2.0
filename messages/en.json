@@ -7,5 +7,8 @@
     "title": "About Me",
     "text": "I have a great passion for Internet technologies and web development in particular. I started by studying the frontend, but today I also have experience writing the backend.",
     "title-2": "Professional skills"
+  },
+  "Portfolio": {
+    "title": "Portfolio"
   }
 }
