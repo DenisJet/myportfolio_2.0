@@ -6,7 +6,6 @@ import { useLocale, useTranslations } from 'next-intl';
 export default function Portfolio(): JSX.Element {
   const t = useTranslations('Portfolio');
   const locale = useLocale();
-  console.log(locale);
 
   return (
     <main>
