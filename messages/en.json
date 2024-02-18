@@ -10,5 +10,9 @@
   },
   "Portfolio": {
     "title": "Portfolio"
+  },
+  "Project": {
+    "uses": "The project was created using",
+    "res": "Additional resources"
   }
 }
