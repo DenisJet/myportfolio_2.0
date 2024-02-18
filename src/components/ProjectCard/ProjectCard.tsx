@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import { DetailedHTMLProps, HTMLAttributes } from 'react';
 
-export interface ProjectProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
+export interface ProjectCardProps extends DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement> {
   id: string;
   title: string;
-  description: string;
+  descriptionCard: string;
   year: number;
   iconsSrc: string[];
   link: string;
 }
 
-export default function ProjectCard(project: ProjectProps): JSX.Element {
+export default function ProjectCard(project: ProjectCardProps): JSX.Element {
   return (
     <Link
       href={project.link}
@@ -21,7 +21,7 @@ export default function ProjectCard(project: ProjectProps): JSX.Element {
           project.iconsSrc.map((src) => <img key={src} src={src} alt='' className='max-w-[20px] max-h-[20px]' />)}
       </div>
       <div className='font-bold mb-3'>{project.title}</div>
-      <div className='excerpt mb-3'>{project.description}</div>
+      <div className='excerpt mb-3'>{project.descriptionCard}</div>
       <div className='flex justify-between items-center mb-0 mt-auto'>
         <div className='italic text-sm text-gray-700'>{project.year}</div>
         <svg

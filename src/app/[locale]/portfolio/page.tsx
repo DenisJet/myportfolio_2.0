@@ -20,7 +20,7 @@ export default function Portfolio(): JSX.Element {
                   id={project.id}
                   link={project.link}
                   title={project.title}
-                  description={project.description}
+                  descriptionCard={project.descriptionCard}
                   iconsSrc={project.iconsSrc}
                   year={project.year}
                 />
@@ -32,7 +32,7 @@ export default function Portfolio(): JSX.Element {
                   id={project.id}
                   link={project.link}
                   title={project.title}
-                  description={project.description}
+                  descriptionCard={project.descriptionCard}
                   iconsSrc={project.iconsSrc}
                   year={project.year}
                 />
