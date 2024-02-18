@@ -1,7 +1,7 @@
 export const projectsRu = [
   {
     id: '8',
-    link: '/portfolio/todo',
+    link: '/ru/portfolio/todo',
     title: 'My ToDo List',
     description: 'Фулл стек приложение для составления списка задач.',
     year: 2024,
@@ -15,7 +15,7 @@ export const projectsRu = [
   },
   {
     id: '8',
-    link: '/portfolio/spotify-clone',
+    link: '/ru/portfolio/spotify-clone',
     title: 'Spotify-Clone',
     description: 'Музыкальная платформа',
     year: 2023,
@@ -29,7 +29,7 @@ export const projectsRu = [
   },
   {
     id: '7',
-    link: '/portfolio/live-chat',
+    link: '/ru/portfolio/live-chat',
     title: 'On-Line Chat',
     description: 'Он-лайн чат',
     year: 2023,
@@ -42,7 +42,7 @@ export const projectsRu = [
   },
   {
     id: '6',
-    link: '/portfolio/my-top',
+    link: '/ru/portfolio/my-top',
     title: 'My Top',
     description: 'Учебный фулл стек проект. Сервис для рейтинга курсов, услуг, книг...',
     year: 2023,
@@ -56,7 +56,7 @@ export const projectsRu = [
   },
   {
     id: '5',
-    link: '/portfolio/github-search',
+    link: '/ru/portfolio/github-search',
     title: 'Github Seasch',
     description: 'Сервис для поиска репозиториев на Github по имени пользователя.',
     year: 2023,
@@ -70,7 +70,7 @@ export const projectsRu = [
   },
   {
     id: '4',
-    link: '/portfolio/blog-me',
+    link: '/ru/portfolio/blog-me',
     title: 'Blog Me',
     description: 'Учебный фулл стек проект. Блог, с возможностью написания статей.',
     year: 2023,
@@ -86,10 +86,9 @@ export const projectsRu = [
   },
   {
     id: '3',
-    link: '/portfolio/baths-restoration',
+    link: '/ru/portfolio/baths-restoration',
     title: 'Baths restoration',
-    description:
-      'Посадочная страница с семантической, адаптивной версткой, с использованием таких инструментов, как Gulp, Pug, Bootstrap.',
+    description: 'Посадочная страница с семантической, адаптивной версткой, с использованием Gulp, Pug, Bootstrap.',
     year: 2023,
     iconsSrc: [
       '/icons/iconhtml.svg',
@@ -102,7 +101,7 @@ export const projectsRu = [
   },
   {
     id: '2',
-    link: '/portfolio/cleanhouse',
+    link: '/ru/portfolio/cleanhouse',
     title: 'Clean House',
     description: 'Семантическая, валидная, адаптивная, кроссбраузерная верстка сайта для компании "Чистый дом".',
     year: 2023,
@@ -116,7 +115,7 @@ export const projectsRu = [
   },
   {
     id: '1',
-    link: '/portfolio/krossover',
+    link: '/ru/portfolio/krossover',
     title: 'Krossover',
     description: 'Онлайн-магазин по продаже обуви и одежды.',
     year: 2022,

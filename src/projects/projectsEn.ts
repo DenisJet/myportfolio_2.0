@@ -1,7 +1,7 @@
 export const projectsEn = [
   {
     id: '8',
-    link: '/portfolio/todo',
+    link: '/en/portfolio/todo',
     title: 'My ToDo List',
     description: 'Full stack project, task list app.',
     year: 2024,
@@ -15,7 +15,7 @@ export const projectsEn = [
   },
   {
     id: '8',
-    link: '/portfolio/spotify-clone',
+    link: '/en/portfolio/spotify-clone',
     title: 'Spotify-Clone',
     description: 'Full stack project, music platform.',
     year: 2023,
@@ -29,7 +29,7 @@ export const projectsEn = [
   },
   {
     id: '7',
-    link: '/portfolio/live-chat',
+    link: '/en/portfolio/live-chat',
     title: 'On-Line Chat',
     description: 'Live chat.',
     year: 2023,
@@ -42,7 +42,7 @@ export const projectsEn = [
   },
   {
     id: '6',
-    link: '/portfolio/my-top',
+    link: '/en/portfolio/my-top',
     title: 'My Top',
     description: 'Educational full stack project. Service for rating courses, services, books...',
     year: 2023,
@@ -56,7 +56,7 @@ export const projectsEn = [
   },
   {
     id: '5',
-    link: '/portfolio/github-search',
+    link: '/en/portfolio/github-search',
     title: 'Github Seasch',
     description: 'Service for searching repositories on Github by username.',
     year: 2023,
@@ -70,7 +70,7 @@ export const projectsEn = [
   },
   {
     id: '4',
-    link: '/portfolio/blog-me',
+    link: '/en/portfolio/blog-me',
     title: 'Blog Me',
     description: 'Educational full stack project. Blog, with the ability to write articles.',
     year: 2023,
@@ -86,7 +86,7 @@ export const projectsEn = [
   },
   {
     id: '3',
-    link: '/portfolio/baths-restoration',
+    link: '/en/portfolio/baths-restoration',
     title: 'Baths restoration',
     description: 'Landing page with semantic, adaptive layout, using tools such as Gulp, Pug, Bootstrap.',
     year: 2023,
@@ -101,7 +101,7 @@ export const projectsEn = [
   },
   {
     id: '2',
-    link: '/portfolio/cleanhouse',
+    link: '/en/portfolio/cleanhouse',
     title: 'Clean House',
     description: 'Semantic, valid, adaptive, fluid, cross-browser website layout for the Clean House company.',
     year: 2023,
@@ -115,7 +115,7 @@ export const projectsEn = [
   },
   {
     id: '1',
-    link: '/portfolio/krossover',
+    link: '/en/portfolio/krossover',
     title: 'Krossover',
     description: 'Оn-line store for selling shoes and clothing.',
     year: 2022,
