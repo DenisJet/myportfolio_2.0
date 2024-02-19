@@ -80,7 +80,7 @@ export const projectsRu = [
   {
     id: '5',
     link: '/ru/portfolio/github-search',
-    title: 'Github Seasch',
+    title: 'Github Search',
     descriptionCard: 'Сервис для поиска репозиториев на Github по имени пользователя.',
     year: 2023,
     iconsSrc: [

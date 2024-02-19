@@ -10,7 +10,7 @@ export default function Portfolio(): JSX.Element {
   return (
     <main>
       <div className='container p-4 mx-auto max-w-4xl'>
-        <h1 className='gradient text-6xl font-bold mt-6 mb-5'>{t('title')}</h1>
+        <h1 className='gradient text-5xl font-bold mt-6 mb-5'>{t('title')}</h1>
         <div className='grid md:grid-cols-3 gap-2'>
           {locale == 'en'
             ? projectsEn &&

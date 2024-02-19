@@ -28,7 +28,7 @@ export default function Project({ params }: { params: { projectName: string; loc
     <main className=''>
       {project && (
         <div className='container main p-4 mx-auto max-w-4xl'>
-          <h1 className='gradient text-6xl font-bold mt-6 mb-5 leading-tight'>{project.title}</h1>
+          <h1 className='gradient text-5xl font-bold mt-6 mb-5 leading-tight'>{project.title}</h1>
           <Image src={project.imageSrc} alt='project image' width={1852} height={933} className='w-full h-auto' />
           <p className='font-light mt-4 text-lg'>{project.description}</p>
           <p className='font-light mt-1 mb-4 text-lg'>
