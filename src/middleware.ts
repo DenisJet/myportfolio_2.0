@@ -10,5 +10,5 @@ export default createMiddleware({
 
 export const config = {
   // Match only internationalized pathnames
-  matcher: ['denisjet.netlify.app/', 'denisjet.netlify.app/(ru|en)/:path*'],
+  matcher: ['/', '/(ru|en)/:path*'],
 };
