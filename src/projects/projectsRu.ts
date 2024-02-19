@@ -54,7 +54,7 @@ export const projectsRu = [
       '/icons/socket-icon.svg',
     ],
     imageSrc: '/projects/online-chat.png',
-    description: 'Небольшой проект, живой чат. Создан для знакомства с технологией WebSocket.',
+    description: 'Небольшой проект, он-лайн чат. Создан для знакомства с технологией WebSocket.',
     uses: 'Nest JS, PostgreSQL, Prisma, Socket.IO',
     addLinks: ['https://online-chat-c8eu.onrender.com/chat', 'https://github.com/DenisJet/live-chat-server'],
   },

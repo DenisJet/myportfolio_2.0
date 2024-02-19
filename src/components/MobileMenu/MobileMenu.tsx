@@ -1,25 +1,32 @@
 'use client';
 
-import Link from 'next/link';
 import { useState } from 'react';
+import { useRouter } from '../../navigation';
 
 export default function MobileMenu(): JSX.Element {
   const [open, setOpen] = useState<boolean>(false);
+
+  const router = useRouter();
+
+  const handleClick = (path: string) => {
+    setOpen(false);
+    router.push(path);
+  };
 
   return (
     <div className='sm:hidden'>
       {open ? (
         <div className='absolute top-0 left-0 h-screen w-screen bg-slate-900 bg-opacity-95 text-white z-50 py-2 px-4'>
           <nav className='flex flex-col w-full'>
-            <Link href='/' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
+            <button className='text-white text-xl px-8 py-4' onClick={() => handleClick('/')}>
               Home
-            </Link>
-            <Link href='/about' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
+            </button>
+            <button className='text-white text-xl px-8 py-4' onClick={() => handleClick('/about')}>
               About
-            </Link>
-            <Link href='/portfolio' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
+            </button>
+            <button className='text-white text-xl px-8 py-4' onClick={() => handleClick('/portfolio')}>
               Portfolio
-            </Link>
+            </button>
             {/* <Link href='/contact' className='text-white text-xl px-8 py-4' onClick={() => setOpen(false)}>
               Contact
             </Link> */}
