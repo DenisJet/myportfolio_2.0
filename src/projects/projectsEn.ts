@@ -14,7 +14,7 @@ export const projectsEn = [
     ],
     imageSrc: '/projects/mytodo.png',
     description:
-      'The application implements the functionality of adding a new task indicating the title, description and status. It is also possible to change and delete existing tasks. The application is deployed on the server from a Docker container (you can add a couple of tasks for me). This is just the initial state of the project. I plan to develop a convenient and pleasant interface and add a set of cool functions.',
+      'The application implements the functionality of adding a new task indicating the title, description and status. It is also possible to change and delete existing tasks. The application is deployed on the server from a Docker container (you can add a couple of tasks for me, but do not rush the server may respond with a delay of a few seconds). This is just the initial state of the project. I plan to develop a convenient and pleasant interface and add a set of cool functions.',
     uses: 'Nest JS, Next JS, MongoDB, TypeScript, Docker',
     addLinks: [
       'http://5.35.89.103:3000/',
