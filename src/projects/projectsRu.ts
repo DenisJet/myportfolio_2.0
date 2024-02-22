@@ -2,7 +2,7 @@ export const projectsRu = [
   {
     id: '9',
     link: '/ru/portfolio/todo',
-    title: 'My ToDo List',
+    title: 'My ToDo App',
     descriptionCard: 'Фулл стек приложение для составления списка задач.',
     year: 2024,
     iconsSrc: [
