@@ -8,7 +8,7 @@ export default function About(): JSX.Element {
   return (
     <main>
       <div className='container p-4 mx-auto max-w-4xl'>
-        <h1 className='gradient text-6xl font-bold mt-6 mb-3'>{t('title')}</h1>
+        <h1 className='gradient text-6xl font-bold mt-6 mb-6'>{t('title')}</h1>
         <p className='font-light text-lg mb-3'>{t('text')}</p>
         <div className='my-3 flex'>
           <Link
