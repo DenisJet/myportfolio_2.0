@@ -106,7 +106,7 @@ export const projectsEn = [
     year: 2022,
     iconsSrc: ['/icons/iconhtml.svg', '/icons/iconcss.svg', '/icons/icon-wordpress.svg'],
     imageSrc: '/projects/krossover.png',
-    description: 'Оn-line store for selling shoes and clothing online. Created with WordPress.',
+    description: 'Оn-line store for selling shoes and clothing online.',
     uses: 'WordPress',
     addLinks: ['https://krossover-shoes.ru/'],
   },
