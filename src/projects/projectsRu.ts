@@ -1,6 +1,6 @@
 export const projectsRu = [
   {
-    id: '9',
+    id: '6',
     link: '/ru/portfolio/todo',
     title: 'My ToDo App',
     descriptionCard: 'Фулл стек приложение для составления списка задач.',
@@ -23,26 +23,7 @@ export const projectsRu = [
     ],
   },
   {
-    id: '8',
-    link: '/ru/portfolio/spotify-clone',
-    title: 'Spotify-Clone',
-    descriptionCard: 'Музыкальная платформа',
-    year: 2023,
-    iconsSrc: [
-      '/icons/icon-typescript.svg',
-      '/icons/icon-next.svg',
-      '/icons/icons-nest.svg',
-      '/icons/icon-mongo.svg',
-      '/icons/icon-mui.svg',
-    ],
-    imageSrc: '/projects/spotify-clone.png',
-    description:
-      'Музыкальная платформа. Реализована загрузка, прослушивание и удаление музыкальных треков, загрузка изображений для обложки трека. Есть возможность оставлять комментарии. Также реализован музыкальный плеер. Основной набор функций уже присутствует, но проект все еще находится в стадии разработки.',
-    uses: 'Nest JS, SSR на Next JS, TypeScript, Mongo DB, Material Ui',
-    addLinks: ['https://github.com/DenisJet/spotify-clone-client', 'https://github.com/DenisJet/spotify-clone-server'],
-  },
-  {
-    id: '7',
+    id: '5',
     link: '/ru/portfolio/live-chat',
     title: 'On-Line Chat',
     descriptionCard: 'Он-лайн чат',
@@ -59,26 +40,7 @@ export const projectsRu = [
     addLinks: ['https://github.com/DenisJet/live-chat-server'],
   },
   {
-    id: '6',
-    link: '/ru/portfolio/my-top',
-    title: 'My Top',
-    descriptionCard: 'Учебный фулл стек проект. Сервис для рейтинга курсов, услуг, книг...',
-    year: 2023,
-    iconsSrc: [
-      '/icons/icon-typescript.svg',
-      '/icons/icon-next.svg',
-      '/icons/icons-nest.svg',
-      '/icons/icon-mongo.svg',
-      '/icons/icon-docker.svg',
-    ],
-    imageSrc: '/projects/mytop.png',
-    description:
-      'Один из моих учебных проектов. Рейтинг курсов, услуг, книг и т.д. С помощью NestJS и MongoDB реализован api для создания, удаления, редактирования и поиска страниц и товаров. Интегрирован Telegram-бот с использованием telegraf. Также реализованы регистрация и авторизация с помощью passport-jwt. Реализован SSR на NextJS. Есть динамическая маршрутизация, работа с React Hook Form, немного анимации с помощью Frame Motion. Работа с Github Actions, Docker и многое другое...',
-    uses: 'Nest JS, MongoDB, telegraf, passport-jwt, NextJS, React Hook Form, Github Actions, Docker',
-    addLinks: ['https://github.com/DenisJet/mytop-app', 'https://github.com/DenisJet/mytop-api'],
-  },
-  {
-    id: '5',
+    id: '4',
     link: '/ru/portfolio/github-search',
     title: 'Github Search',
     descriptionCard: 'Сервис для поиска репозиториев на Github по имени пользователя.',
@@ -97,7 +59,7 @@ export const projectsRu = [
     addLinks: ['https://denisjet-githubsearch.netlify.app/', 'https://github.com/DenisJet/github-search'],
   },
   {
-    id: '4',
+    id: '3',
     link: '/ru/portfolio/blog-me',
     title: 'Blog Me',
     descriptionCard: 'Учебный фулл стек проект. Блог, с возможностью написания статей.',
@@ -116,26 +78,6 @@ export const projectsRu = [
       'Мой первый фулл стек проект, во время написания которого я научился создавать свой собственный бэкенд. В проекте реализована регистрация и авторизация пользователей, чтение, создание, удаление, изменение статей, загрузка изображений на сервер, возможность оставлять комментарии и т.д.',
     uses: 'MongoDB, Express, React, Material Ui, Redux Toolkit, Axios, JWT, BCrypt, Multer',
     addLinks: ['https://github.com/DenisJet/blog-mern-front', 'https://github.com/DenisJet/blog-mern-beck'],
-  },
-  {
-    id: '3',
-    link: '/ru/portfolio/baths-restoration',
-    title: 'Baths restoration',
-    descriptionCard: 'Посадочная страница с семантической, адаптивной версткой, с использованием Gulp, Pug, Bootstrap.',
-    year: 2023,
-    iconsSrc: [
-      '/icons/iconhtml.svg',
-      '/icons/iconcss.svg',
-      '/icons/icon-javascript.svg',
-      '/icons/icons-gulp.png',
-      '/icons/pug_icon.svg',
-      '/icons/icon-bootstrap.svg',
-    ],
-    imageSrc: '/projects/restoration.png',
-    description:
-      'Простая посадочная страница, при создании которой я познакомился с шаблонизатором Pug, который понравился мне своей удобной возможностью создавать отдельные блоки для верстки. Также познакомился с Bootstrap, который значительно ускоряет верстку.',
-    uses: 'Html, Css, Pug, Bootstrap',
-    addLinks: ['https://restavracia--vann.ru/', 'https://github.com/DenisJet/remont-vann'],
   },
   {
     id: '2',

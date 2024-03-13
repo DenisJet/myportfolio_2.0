@@ -9,6 +9,7 @@ export default function About(): JSX.Element {
     <main>
       <div className='container p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-3'>{t('title')}</h1>
+        <p className='font-light text-lg mb-5'>{t('text')}</p>
         <div className='my-6 flex'>
           <Link
             href='https://assets.htmlacademy.ru/certificates/profession/39/1875311.pdf?1665069782&_ga=2.193242148.86894964.1665994142-270059664.1655958253'
@@ -25,7 +26,6 @@ export default function About(): JSX.Element {
             <Image src='/react-sert.png' alt='' width={100} height={50} className='w-full h-auto' />
           </Link>
         </div>
-        <p className='font-light text-lg mb-5'>{t('text')}</p>
         <h2 className='text-xl font-semibold mb-4'>{t('title-2')}</h2>
         <div className='p-0 mt-2 flex items-start flex-wrap'>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>HTML</div>
