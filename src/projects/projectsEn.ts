@@ -35,7 +35,8 @@ export const projectsEn = [
       '/icons/socket-icon.svg',
     ],
     imageSrc: '/projects/online-chat.png',
-    description: 'A small project, live chat. Created to get acquainted with WebSocket.',
+    description:
+      'A small project, live chat. Created to get acquainted with WebSocket. The project is deployed on render.com',
     uses: 'Nest JS, PostgreSQL, Prisma, WebSockets',
     addLinks: [
       'https://online-chat-c8eu.onrender.com/chat',
