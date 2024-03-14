@@ -36,7 +36,7 @@ export const projectsRu = [
     ],
     imageSrc: '/projects/online-chat.png',
     description:
-      'Небольшой проект, он-лайн чат. Создан для знакомства с технологией WebSocket. Проект развернут на render.com',
+      'Небольшой проект, он-лайн чат. Создан для знакомства с технологией WebSocket. Развернут на render.com',
     uses: 'Nest JS, PostgreSQL, Prisma, WebSockets',
     addLinks: [
       'https://online-chat-c8eu.onrender.com/chat',
