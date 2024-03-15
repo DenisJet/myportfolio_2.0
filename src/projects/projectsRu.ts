@@ -1,9 +1,32 @@
 export const projectsRu = [
   {
+    id: '7',
+    link: '/ru/portfolio/cloud-storage',
+    title: 'My Cloud Storage',
+    descriptionCard: 'Фуллстек приложение - облачное хранилище.',
+    year: 2024,
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icon-next.svg',
+      '/icons/icon-tailwind.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-postgresql.svg',
+      '/icons/icon-docker.svg',
+    ],
+    imageSrc: '/projects/cloud.png',
+    description:
+      'Облачное хранилище, с возможностью загружать и удалять файлы. Реализованны функции регистрации и авторизации пользователей с помощью токенов. Хранение токенов организованно в cookies.',
+    uses: 'TypeScript, Next JS, TailwindCSS, Nest JS, PostgreSQL, JWT, Docker',
+    addLinks: [
+      'https://github.com/DenisJet/my-cloud-storage-client',
+      'https://github.com/DenisJet/my-cloude-storage-server',
+    ],
+  },
+  {
     id: '6',
     link: '/ru/portfolio/todo',
     title: 'My ToDo App',
-    descriptionCard: 'Фулл стек приложение для составления списка задач.',
+    descriptionCard: 'Фуллстек приложение для составления списка задач.',
     year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',

@@ -1,9 +1,32 @@
 export const projectsEn = [
   {
+    id: '7',
+    link: '/ru/portfolio/cloud-storage',
+    title: 'My Cloud Storage',
+    descriptionCard: 'Fullstack app - cloud storage.',
+    year: 2024,
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icon-next.svg',
+      '/icons/icon-tailwind.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-postgresql.svg',
+      '/icons/icon-docker.svg',
+    ],
+    imageSrc: '/projects/cloud.png',
+    description:
+      'Cloud storage, with the ability to upload and delete files. The functions of user registration and authorization using tokens are implemented. Storage of tokens is organized in cookies.',
+    uses: 'TypeScript, Next JS, TailwindCSS, Nest JS, PostgreSQL, JWT, Docker',
+    addLinks: [
+      'https://github.com/DenisJet/my-cloud-storage-client',
+      'https://github.com/DenisJet/my-cloude-storage-server',
+    ],
+  },
+  {
     id: '6',
     link: '/en/portfolio/todo',
     title: 'My ToDo App',
-    descriptionCard: 'Full stack project, task list app.',
+    descriptionCard: 'Fullstack project, task list app.',
     year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
