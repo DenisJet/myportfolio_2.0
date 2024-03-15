@@ -16,7 +16,7 @@ export const projectsRu = [
     imageSrc: '/projects/cloud.png',
     description:
       'Облачное хранилище, с возможностью загружать и удалять файлы. Реализованны функции регистрации и авторизации пользователей с помощью токенов. Хранение токенов организованно в cookies.',
-    uses: 'TypeScript, Next JS, TailwindCSS, Nest JS, PostgreSQL, JWT, Docker',
+    uses: 'TypeScript, Next JS, TailwindCSS, Nest JS, PostgreSQL, Swagger, PassportJWT, Docker',
     addLinks: [
       'https://github.com/DenisJet/my-cloud-storage-client',
       'https://github.com/DenisJet/my-cloude-storage-server',

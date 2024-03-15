@@ -16,7 +16,7 @@ export const projectsEn = [
     imageSrc: '/projects/cloud.png',
     description:
       'Cloud storage, with the ability to upload and delete files. The functions of user registration and authorization using tokens are implemented. Storage of tokens is organized in cookies.',
-    uses: 'TypeScript, Next JS, TailwindCSS, Nest JS, PostgreSQL, JWT, Docker',
+    uses: 'TypeScript, Next JS, TailwindCSS, Nest JS, PostgreSQL, Swagger, PassportJWT, Docker',
     addLinks: [
       'https://github.com/DenisJet/my-cloud-storage-client',
       'https://github.com/DenisJet/my-cloude-storage-server',
