@@ -10,7 +10,7 @@ export default function LangButton(): JSX.Element {
 
   return (
     <Link href={pathName} locale={changeLocale}>
-      {locale}
+      {locale == 'ru' ? 'en' : 'ru'}
     </Link>
   );
 }
