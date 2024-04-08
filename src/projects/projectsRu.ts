@@ -1,6 +1,6 @@
 export const projectsRu = [
   {
-    id: '7',
+    id: '8',
     link: '/ru/portfolio/cloud-storage',
     title: 'My Cloud Storage',
     descriptionCard: 'Фуллстек приложение - облачное хранилище.',
@@ -23,7 +23,7 @@ export const projectsRu = [
     ],
   },
   {
-    id: '6',
+    id: '7',
     link: '/ru/portfolio/todo',
     title: 'My ToDo App',
     descriptionCard: 'Фуллстек приложение для составления списка задач.',
@@ -44,6 +44,19 @@ export const projectsRu = [
       'https://github.com/DenisJet/mytodo-client',
       'https://github.com/DenisJet/mytodo-server',
     ],
+  },
+  {
+    id: '6',
+    link: '/ru/portfolio/personal-journal',
+    title: 'Personal Journal',
+    descriptionCard: 'Приложение для написания заметок',
+    year: 2024,
+    iconsSrc: ['/icons/icon-javascript.svg', '/icons/react_icon.svg', '/icons/vite-icon.svg'],
+    imageSrc: '/projects/my-journal.png',
+    description:
+      'Приложение для написание заметок. Присутствует работа со всеми основными react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo). Осуществлена работа с формой. Сохранение данных реализованно в localstorage, при помощи кастомного хука.',
+    uses: 'JavaScript, ReactJS, Vite',
+    addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
   },
   {
     id: '5',

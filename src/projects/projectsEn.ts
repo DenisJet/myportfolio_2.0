@@ -1,6 +1,6 @@
 export const projectsEn = [
   {
-    id: '7',
+    id: '8',
     link: '/ru/portfolio/cloud-storage',
     title: 'My Cloud Storage',
     descriptionCard: 'Fullstack app - cloud storage.',
@@ -23,7 +23,7 @@ export const projectsEn = [
     ],
   },
   {
-    id: '6',
+    id: '7',
     link: '/en/portfolio/todo',
     title: 'My ToDo App',
     descriptionCard: 'Fullstack project, task list app.',
@@ -44,6 +44,19 @@ export const projectsEn = [
       'https://github.com/DenisJet/mytodo-client',
       'https://github.com/DenisJet/mytodo-server',
     ],
+  },
+  {
+    id: '6',
+    link: '/ru/portfolio/personal-journal',
+    title: 'Personal Journal',
+    descriptionCard: 'An application for writing notes',
+    year: 2024,
+    iconsSrc: ['/icons/icon-javascript.svg', '/icons/react_icon.svg', '/icons/vite-icon.svg'],
+    imageSrc: '/projects/my-journal.png',
+    description:
+      'An application for writing notes. All basic react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo) are handled. Work with form is implemented. Data saving is implemented in localstorage, using custom hook.',
+    uses: 'JavaScript, ReactJS, Vite',
+    addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
   },
   {
     id: '5',
