@@ -5,7 +5,7 @@
   },
   "About": {
     "title": "About Me",
-    "text": "I have skills of semantic, adaptive layout, understand how to make a page interactive with JavaScript. I have networking skills: synchronous and asynchronous operations, JSON, promises, Fetch API. I have experience in creating applications using React JS, Next JS, Redux, Redux Toolkit. I also have some experience with Nest JS, Mongo DB, PostgreSQL.",
+    "text": "I have skills in semantic, valid, adaptive, rubber, cross-browser, Pixel Perfect layout, using BEM, Sass, Gulp, Pug, Bootstrap. I have experience creating SPAs in pure JavaScript/TypeScript, but spend most of my time writing code using tools like React JS, Redux, Next JS, moduleCSS, TailwindCSS. I have basic knowledge of backend and experience in writing simple RestAPI servers using such technologies as Nest JS, Mongo DB, PostgreSQL. I also know how to use Docker, docker-compose and Git, GitHub",
     "title-2": "Professional skills"
   },
   "Portfolio": {
