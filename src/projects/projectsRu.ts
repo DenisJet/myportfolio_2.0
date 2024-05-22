@@ -1,5 +1,24 @@
 export const projectsRu = [
   {
+    id: '9',
+    link: '/ru/portfolio/personal-journal',
+    title: 'Pizza-app',
+    descriptionCard: 'Сервис доставки пиццы.',
+    year: 2024,
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/react_icon.svg',
+      '/icons/icon-redux.svg',
+      '/icons/vite-icon.svg',
+      '/icons/axios_icon.svg',
+    ],
+    imageSrc: '/projects/pizza-app.png',
+    description:
+      'Сервис доставки еды. Реализованны авторизация и регистрация пользователя, просмотр меню и каждого блюда, добавление блюда в корзину и оформление заказа. Присутствует полноценная работа с react-router, получение данных через react-router, а так же получение данных через через redux и хранение состояния в redux.',
+    uses: 'TypeScript, ReactJS, ReduxToolkit, Vite',
+    addLinks: ['https://github.com/DenisJet/pizza-app'],
+  },
+  {
     id: '8',
     link: '/ru/portfolio/cloud-storage',
     title: 'My Cloud Storage',
