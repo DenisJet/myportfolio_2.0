@@ -93,11 +93,7 @@ export const projectsEn = [
     description:
       "A small project, live chat. Created to get acquainted with WebSocket. Deployed on render.com ('Your free instance will spin down with inactivity, which can delay requests by 50 seconds or more.')",
     uses: 'Nest JS, PostgreSQL, Prisma, WebSockets',
-    addLinks: [
-      'https://online-chat-c8eu.onrender.com/chat',
-      'https://online-chat-c8eu.onrender.com/api/chat',
-      'https://github.com/DenisJet/live-chat-server',
-    ],
+    addLinks: ['https://online-chat-c8eu.onrender.com/chat', 'https://github.com/DenisJet/live-chat-server'],
   },
   {
     id: '3',
