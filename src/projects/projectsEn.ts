@@ -1,6 +1,6 @@
 export const projectsEn = [
   {
-    id: '9',
+    id: '8',
     link: '/ru/portfolio/personal-journal',
     title: 'Pizza-app',
     descriptionCard: 'Pizza delivery service.',
@@ -19,7 +19,7 @@ export const projectsEn = [
     addLinks: ['https://github.com/DenisJet/pizza-app'],
   },
   {
-    id: '8',
+    id: '7',
     link: '/ru/portfolio/cloud-storage',
     title: 'My Cloud Storage',
     descriptionCard: 'Fullstack app - cloud storage.',
@@ -42,7 +42,7 @@ export const projectsEn = [
     ],
   },
   {
-    id: '7',
+    id: '6',
     link: '/en/portfolio/todo',
     title: 'My ToDo App',
     descriptionCard: 'Fullstack project, task list app.',
@@ -65,7 +65,7 @@ export const projectsEn = [
     ],
   },
   {
-    id: '6',
+    id: '5',
     link: '/ru/portfolio/personal-journal',
     title: 'Personal Journal',
     descriptionCard: 'An application for writing notes',
@@ -78,7 +78,7 @@ export const projectsEn = [
     addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
   },
   {
-    id: '5',
+    id: '4',
     link: '/en/portfolio/live-chat',
     title: 'On-Line Chat',
     descriptionCard: 'Live chat.',
@@ -100,7 +100,7 @@ export const projectsEn = [
     ],
   },
   {
-    id: '4',
+    id: '3',
     link: '/en/portfolio/github-search',
     title: 'Github Search',
     descriptionCard: 'Service for searching repositories on Github by username.',
@@ -117,27 +117,6 @@ export const projectsEn = [
       'Not a big application, allows you to find repositories on Github by user name. The function of adding and removing repository from favorites is implemented.',
     uses: 'TypeScript, React, RTKQuery, Tailwind CSS, Axios',
     addLinks: ['https://denisjet-githubsearch.netlify.app/', 'https://github.com/DenisJet/github-search'],
-  },
-  {
-    id: '3',
-    link: '/en/portfolio/blog-me',
-    title: 'Blog Me',
-    descriptionCard: 'Full stack learning project. Blog, with the ability to write articles.',
-    year: 2023,
-    iconsSrc: [
-      '/icons/icon-javascript.svg',
-      '/icons/react_icon.svg',
-      '/icons/icon-redux.svg',
-      '/icons/icon-mui.svg',
-      '/icons/icon-express.svg',
-      '/icons/icon-mongo.svg',
-      '/icons/axios_icon.svg',
-    ],
-    imageSrc: '/projects/blog-me.png',
-    description:
-      'My first full stack learning project, during the writing of which I learned how to create my own backend. The project implements user registration and authorization, reading, creating, deleting, changing articles, uploading images to the server, possibility to leave comments, etc.',
-    uses: 'MongoDB, Express, React, Material Ui, Redux Toolkit, Axios, JWT, BCrypt, Multer',
-    addLinks: ['https://github.com/DenisJet/blog-mern-front', 'https://github.com/DenisJet/blog-mern-beck'],
   },
   {
     id: '2',

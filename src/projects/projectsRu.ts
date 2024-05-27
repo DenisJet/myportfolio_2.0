@@ -1,6 +1,6 @@
 export const projectsRu = [
   {
-    id: '9',
+    id: '8',
     link: '/ru/portfolio/personal-journal',
     title: 'Pizza-app',
     descriptionCard: 'Сервис доставки пиццы.',
@@ -19,7 +19,7 @@ export const projectsRu = [
     addLinks: ['https://github.com/DenisJet/pizza-app'],
   },
   {
-    id: '8',
+    id: '7',
     link: '/ru/portfolio/cloud-storage',
     title: 'My Cloud Storage',
     descriptionCard: 'Фуллстек приложение - облачное хранилище.',
@@ -42,7 +42,7 @@ export const projectsRu = [
     ],
   },
   {
-    id: '7',
+    id: '6',
     link: '/ru/portfolio/todo',
     title: 'My ToDo App',
     descriptionCard: 'Фуллстек приложение для составления списка задач.',
@@ -65,7 +65,7 @@ export const projectsRu = [
     ],
   },
   {
-    id: '6',
+    id: '5',
     link: '/ru/portfolio/personal-journal',
     title: 'Personal Journal',
     descriptionCard: 'Приложение для написания заметок',
@@ -78,7 +78,7 @@ export const projectsRu = [
     addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
   },
   {
-    id: '5',
+    id: '4',
     link: '/ru/portfolio/live-chat',
     title: 'On-Line Chat',
     descriptionCard: 'Он-лайн чат',
@@ -100,7 +100,7 @@ export const projectsRu = [
     ],
   },
   {
-    id: '4',
+    id: '3',
     link: '/ru/portfolio/github-search',
     title: 'Github Search',
     descriptionCard: 'Сервис для поиска репозиториев на Github по имени пользователя.',
@@ -117,27 +117,6 @@ export const projectsRu = [
       'Не большое приложение, позволяет находить репозитории на Github по имени пользователя. Реализована функция добавления и удаления репозитория из избранного.',
     uses: 'TypeScript, React, RTKQuery, Tailwind CSS, Axios',
     addLinks: ['https://denisjet-githubsearch.netlify.app/', 'https://github.com/DenisJet/github-search'],
-  },
-  {
-    id: '3',
-    link: '/ru/portfolio/blog-me',
-    title: 'Blog Me',
-    descriptionCard: 'Учебный фулл стек проект. Блог, с возможностью написания статей.',
-    year: 2023,
-    iconsSrc: [
-      '/icons/icon-javascript.svg',
-      '/icons/react_icon.svg',
-      '/icons/icon-redux.svg',
-      '/icons/icon-mui.svg',
-      '/icons/icon-express.svg',
-      '/icons/icon-mongo.svg',
-      '/icons/axios_icon.svg',
-    ],
-    imageSrc: '/projects/blog-me.png',
-    description:
-      'Мой первый фулл стек проект, во время написания которого я научился создавать свой собственный бэкенд. В проекте реализована регистрация и авторизация пользователей, чтение, создание, удаление, изменение статей, загрузка изображений на сервер, возможность оставлять комментарии и т.д.',
-    uses: 'MongoDB, Express, React, Material Ui, Redux Toolkit, Axios, JWT, BCrypt, Multer',
-    addLinks: ['https://github.com/DenisJet/blog-mern-front', 'https://github.com/DenisJet/blog-mern-beck'],
   },
   {
     id: '2',
