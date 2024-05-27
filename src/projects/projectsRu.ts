@@ -1,7 +1,7 @@
 export const projectsRu = [
   {
     id: '8',
-    link: '/ru/portfolio/personal-journal',
+    link: '/ru/portfolio/pizza-app',
     title: 'Pizza-app',
     descriptionCard: 'Сервис доставки пиццы.',
     year: 2024,
