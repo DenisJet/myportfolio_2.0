@@ -16,7 +16,7 @@ export const projectsRu = [
     description:
       'Сервис доставки еды. Реализованны авторизация и регистрация пользователя, просмотр меню и каждого блюда, добавление блюда в корзину и оформление заказа. Присутствует полноценная работа с react-router, получение данных через react-router, а так же получение данных через через redux и хранение состояния в redux.',
     uses: 'TypeScript, ReactJS, ReduxToolkit, Vite',
-    addLinks: ['https://github.com/DenisJet/pizza-app'],
+    addLinks: ['https://denis-pizza.netlify.app/', 'https://github.com/DenisJet/pizza-app'],
   },
   {
     id: '7',
