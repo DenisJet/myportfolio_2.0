@@ -4,7 +4,6 @@ export const projectsEn = [
     link: '/ru/portfolio/pizza-app',
     title: 'Pizza-app',
     descriptionCard: 'Pizza delivery service.',
-    year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/react_icon.svg',
@@ -20,10 +19,39 @@ export const projectsEn = [
   },
   {
     id: '7',
+    link: '/ru/portfolio/personal-journal',
+    title: 'Personal Journal',
+    descriptionCard: 'An application for writing notes',
+    iconsSrc: ['/icons/icon-javascript.svg', '/icons/react_icon.svg', '/icons/vite-icon.svg'],
+    imageSrc: '/projects/my-journal.png',
+    description:
+      'An application for writing notes. All basic react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo) are handled. Work with form is implemented. Data saving is implemented in localstorage, using custom hook.',
+    uses: 'JavaScript, ReactJS, Vite',
+    addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
+  },
+  {
+    id: '6',
+    link: '/en/portfolio/github-search',
+    title: 'Github Search',
+    descriptionCard: 'Service for searching repositories on Github by username.',
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/react_icon.svg',
+      '/icons/icon-redux.svg',
+      '/icons/icon-tailwind.svg',
+      '/icons/axios_icon.svg',
+    ],
+    imageSrc: '/projects/githubsearch.png',
+    description:
+      'Not a big application, allows you to find repositories on Github by user name. The function of adding and removing repository from favorites is implemented.',
+    uses: 'TypeScript, React, RTKQuery, Tailwind CSS, Axios',
+    addLinks: ['https://denisjet-githubsearch.netlify.app/', 'https://github.com/DenisJet/github-search'],
+  },
+  {
+    id: '5',
     link: '/ru/portfolio/cloud-storage',
     title: 'My Cloud Storage',
     descriptionCard: 'Fullstack app - cloud storage.',
-    year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/icon-next.svg',
@@ -42,11 +70,10 @@ export const projectsEn = [
     ],
   },
   {
-    id: '6',
+    id: '4',
     link: '/en/portfolio/todo',
     title: 'My ToDo App',
     descriptionCard: 'Fullstack project, task list app.',
-    year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/icon-next.svg',
@@ -65,24 +92,10 @@ export const projectsEn = [
     ],
   },
   {
-    id: '5',
-    link: '/ru/portfolio/personal-journal',
-    title: 'Personal Journal',
-    descriptionCard: 'An application for writing notes',
-    year: 2024,
-    iconsSrc: ['/icons/icon-javascript.svg', '/icons/react_icon.svg', '/icons/vite-icon.svg'],
-    imageSrc: '/projects/my-journal.png',
-    description:
-      'An application for writing notes. All basic react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo) are handled. Work with form is implemented. Data saving is implemented in localstorage, using custom hook.',
-    uses: 'JavaScript, ReactJS, Vite',
-    addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
-  },
-  {
-    id: '4',
+    id: '3',
     link: '/en/portfolio/live-chat',
     title: 'On-Line Chat',
     descriptionCard: 'Live chat.',
-    year: 2023,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/icons-nest.svg',
@@ -96,30 +109,10 @@ export const projectsEn = [
     addLinks: ['https://online-chat-c8eu.onrender.com/chat', 'https://github.com/DenisJet/live-chat-server'],
   },
   {
-    id: '3',
-    link: '/en/portfolio/github-search',
-    title: 'Github Search',
-    descriptionCard: 'Service for searching repositories on Github by username.',
-    year: 2023,
-    iconsSrc: [
-      '/icons/icon-typescript.svg',
-      '/icons/react_icon.svg',
-      '/icons/icon-redux.svg',
-      '/icons/icon-tailwind.svg',
-      '/icons/axios_icon.svg',
-    ],
-    imageSrc: '/projects/githubsearch.png',
-    description:
-      'Not a big application, allows you to find repositories on Github by user name. The function of adding and removing repository from favorites is implemented.',
-    uses: 'TypeScript, React, RTKQuery, Tailwind CSS, Axios',
-    addLinks: ['https://denisjet-githubsearch.netlify.app/', 'https://github.com/DenisJet/github-search'],
-  },
-  {
     id: '2',
     link: '/en/portfolio/cleanhouse',
     title: 'Clean House',
     descriptionCard: 'Semantic, valid, adaptive, fluid, cross-browser website layout for the Clean House company.',
-    year: 2023,
     iconsSrc: [
       '/icons/iconhtml.svg',
       '/icons/iconcss.svg',
@@ -138,7 +131,6 @@ export const projectsEn = [
     link: '/en/portfolio/krossover',
     title: 'Krossover',
     descriptionCard: 'Оn-line store for selling shoes and clothing.',
-    year: 2022,
     iconsSrc: ['/icons/iconhtml.svg', '/icons/iconcss.svg', '/icons/icon-wordpress.svg'],
     imageSrc: '/projects/krossover.png',
     description: 'Оn-line store for selling shoes and clothing online.',

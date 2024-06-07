@@ -4,7 +4,6 @@ export const projectsRu = [
     link: '/ru/portfolio/pizza-app',
     title: 'Pizza-app',
     descriptionCard: 'Сервис доставки пиццы.',
-    year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/react_icon.svg',
@@ -20,10 +19,39 @@ export const projectsRu = [
   },
   {
     id: '7',
+    link: '/ru/portfolio/personal-journal',
+    title: 'Personal Journal',
+    descriptionCard: 'Приложение для написания заметок',
+    iconsSrc: ['/icons/icon-javascript.svg', '/icons/react_icon.svg', '/icons/vite-icon.svg'],
+    imageSrc: '/projects/my-journal.png',
+    description:
+      'Приложение для написание заметок. Присутствует работа со всеми основными react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo). Осуществлена работа с формой. Сохранение данных реализованно в localstorage, при помощи кастомного хука.',
+    uses: 'JavaScript, ReactJS, Vite',
+    addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
+  },
+  {
+    id: '6',
+    link: '/ru/portfolio/github-search',
+    title: 'Github Search',
+    descriptionCard: 'Сервис для поиска репозиториев на Github по имени пользователя.',
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/react_icon.svg',
+      '/icons/icon-redux.svg',
+      '/icons/icon-tailwind.svg',
+      '/icons/axios_icon.svg',
+    ],
+    imageSrc: '/projects/githubsearch.png',
+    description:
+      'Не большое приложение, позволяет находить репозитории на Github по имени пользователя. Реализована функция добавления и удаления репозитория из избранного.',
+    uses: 'TypeScript, React, RTKQuery, Tailwind CSS, Axios',
+    addLinks: ['https://denisjet-githubsearch.netlify.app/', 'https://github.com/DenisJet/github-search'],
+  },
+  {
+    id: '5',
     link: '/ru/portfolio/cloud-storage',
     title: 'My Cloud Storage',
     descriptionCard: 'Фуллстек приложение - облачное хранилище.',
-    year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/icon-next.svg',
@@ -42,11 +70,10 @@ export const projectsRu = [
     ],
   },
   {
-    id: '6',
+    id: '4',
     link: '/ru/portfolio/todo',
     title: 'My ToDo App',
     descriptionCard: 'Фуллстек приложение для составления списка задач.',
-    year: 2024,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/icon-next.svg',
@@ -65,24 +92,10 @@ export const projectsRu = [
     ],
   },
   {
-    id: '5',
-    link: '/ru/portfolio/personal-journal',
-    title: 'Personal Journal',
-    descriptionCard: 'Приложение для написания заметок',
-    year: 2024,
-    iconsSrc: ['/icons/icon-javascript.svg', '/icons/react_icon.svg', '/icons/vite-icon.svg'],
-    imageSrc: '/projects/my-journal.png',
-    description:
-      'Приложение для написание заметок. Присутствует работа со всеми основными react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo). Осуществлена работа с формой. Сохранение данных реализованно в localstorage, при помощи кастомного хука.',
-    uses: 'JavaScript, ReactJS, Vite',
-    addLinks: ['https://denisjet-journal.netlify.app/', 'https://github.com/DenisJet/MyJournal'],
-  },
-  {
-    id: '4',
+    id: '3',
     link: '/ru/portfolio/live-chat',
     title: 'On-Line Chat',
     descriptionCard: 'Он-лайн чат',
-    year: 2023,
     iconsSrc: [
       '/icons/icon-typescript.svg',
       '/icons/icons-nest.svg',
@@ -96,30 +109,10 @@ export const projectsRu = [
     addLinks: ['https://online-chat-c8eu.onrender.com/chat', 'https://github.com/DenisJet/live-chat-server'],
   },
   {
-    id: '3',
-    link: '/ru/portfolio/github-search',
-    title: 'Github Search',
-    descriptionCard: 'Сервис для поиска репозиториев на Github по имени пользователя.',
-    year: 2023,
-    iconsSrc: [
-      '/icons/icon-typescript.svg',
-      '/icons/react_icon.svg',
-      '/icons/icon-redux.svg',
-      '/icons/icon-tailwind.svg',
-      '/icons/axios_icon.svg',
-    ],
-    imageSrc: '/projects/githubsearch.png',
-    description:
-      'Не большое приложение, позволяет находить репозитории на Github по имени пользователя. Реализована функция добавления и удаления репозитория из избранного.',
-    uses: 'TypeScript, React, RTKQuery, Tailwind CSS, Axios',
-    addLinks: ['https://denisjet-githubsearch.netlify.app/', 'https://github.com/DenisJet/github-search'],
-  },
-  {
     id: '2',
     link: '/ru/portfolio/cleanhouse',
     title: 'Clean House',
     descriptionCard: 'Семантическая, валидная, адаптивная, кроссбраузерная верстка сайта для компании "Чистый дом".',
-    year: 2023,
     iconsSrc: [
       '/icons/iconhtml.svg',
       '/icons/iconcss.svg',
@@ -138,7 +131,6 @@ export const projectsRu = [
     link: '/ru/portfolio/krossover',
     title: 'Krossover',
     descriptionCard: 'Онлайн-магазин по продаже обуви и одежды.',
-    year: 2022,
     iconsSrc: ['/icons/iconhtml.svg', '/icons/iconcss.svg', '/icons/icon-wordpress.svg'],
     imageSrc: '/projects/krossover.png',
     description: 'Интернет-магазин для продажи обуви и одежды онлайн.',
