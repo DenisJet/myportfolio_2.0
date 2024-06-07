@@ -14,7 +14,7 @@ export const projectsEn = [
     ],
     imageSrc: '/projects/pizza-app.png',
     description:
-      'Food delivery service. User authorization and registration, viewing the menu and each dish, adding a dish to the cart and placing an order are implemented. There is a full-fledged work with react-router, receiving data through react-router, as well as receiving data through redux and storing the state in redux.',
+      'Food delivery service. User authorization and registration, viewing the menu and each dish, search by dish name, adding a dish to the cart and placing an order are implemented. There is a full-fledged work with react-router, receiving data through react-router, as well as receiving data through redux and storing the state in redux.',
     uses: 'TypeScript, ReactJS, ReduxToolkit, Vite',
     addLinks: ['https://denis-pizza.netlify.app/', 'https://github.com/DenisJet/pizza-app'],
   },
