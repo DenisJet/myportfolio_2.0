@@ -22,7 +22,6 @@ export default function Portfolio(): JSX.Element {
                   title={project.title}
                   descriptionCard={project.descriptionCard}
                   iconsSrc={project.iconsSrc}
-                  year={project.year}
                 />
               ))
             : projectsRu &&
@@ -34,7 +33,6 @@ export default function Portfolio(): JSX.Element {
                   title={project.title}
                   descriptionCard={project.descriptionCard}
                   iconsSrc={project.iconsSrc}
-                  year={project.year}
                 />
               ))}
         </div>
