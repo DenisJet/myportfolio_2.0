@@ -1,7 +1,7 @@
 export const projectsEn = [
   {
     id: '9',
-    link: '/ru/portfolio/cleaning',
+    link: '/en/portfolio/cleaning',
     title: 'Cleaning Profi',
     descriptionCard: 'Cleaning company services website.',
     iconsSrc: [
@@ -19,7 +19,7 @@ export const projectsEn = [
   },
   {
     id: '8',
-    link: '/ru/portfolio/pizza-app',
+    link: '/en/portfolio/pizza-app',
     title: 'Pizza-app',
     descriptionCard: 'Pizza delivery service.',
     iconsSrc: [
@@ -37,7 +37,7 @@ export const projectsEn = [
   },
   {
     id: '7',
-    link: '/ru/portfolio/personal-journal',
+    link: '/en/portfolio/personal-journal',
     title: 'Personal Journal',
     descriptionCard: 'An application for writing notes',
     iconsSrc: ['/icons/icon-javascript.svg', '/icons/react_icon.svg', '/icons/vite-icon.svg'],
