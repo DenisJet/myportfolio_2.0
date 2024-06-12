@@ -14,6 +14,7 @@ export const projectsRu = [
     imageSrc: '/projects/cleaning.png',
     description:
       'Пример создания сайта по макету, для клининговой компании. Адаптивная, семантическая верстка с отзывчивым дизайном. В проекте используется NextJS и SSR для SEO оптимизации.',
+    uses: 'TypeScript, ReactJS, NextJS, CSS.Modules',
     addLinks: ['https://cleaning-profi.netlify.app/', 'https://github.com/DenisJet/cleaning'],
   },
   {
