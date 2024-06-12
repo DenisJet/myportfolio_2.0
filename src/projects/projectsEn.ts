@@ -13,7 +13,7 @@ export const projectsEn = [
     ],
     imageSrc: '/projects/cleaning.png',
     description:
-      'Example of creating a website on the layout, for a cleaning company. Adaptive, semantic, rubber layout with responsive design. The project uses NextJS and SSR for SEO optimization.',
+      'Example of creating a website on the layout, for a cleaning company. Adaptive, semantic, layout with responsive design. The project uses NextJS and SSR for SEO optimization.',
     uses: 'TypeScript, ReactJS, NextJS, CSS.Modules',
     addLinks: ['https://cleaning-profi.netlify.app/', 'https://github.com/DenisJet/cleaning'],
   },
