@@ -1,5 +1,22 @@
 export const projectsRu = [
   {
+    id: '9',
+    link: '/ru/portfolio/cleaning',
+    title: 'Cleaning Profi',
+    descriptionCard: 'Сайт услуг клининговой компании.',
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/react_icon.svg',
+      '/icons/icon-next.svg',
+      '/icons/iconcss.svg',
+      '/icons/axios_icon.svg',
+    ],
+    imageSrc: '/projects/cleaning.png',
+    description:
+      'Пример создания сайта по макету, для клининговой компании. Адаптивная, семантическая верстка с отзывчивым дизайном. В проекте используется NextJS и SSR для SEO оптимизации.',
+    addLinks: ['https://cleaning-profi.netlify.app/', 'https://github.com/DenisJet/cleaning'],
+  },
+  {
     id: '8',
     link: '/ru/portfolio/pizza-app',
     title: 'Pizza-app',
