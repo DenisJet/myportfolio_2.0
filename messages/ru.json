@@ -5,9 +5,11 @@
   },
   "About": {
     "title": "Обо мне",
-    "titleExperience": "Опыт",
     "text": "Обладаю навыками семантической, валидной, адаптивной, резиновой, кроcсбраузерной, Pixel Perfect вёрстки, с использованием БЭМ, Sass, Gulp. Большую часть своего времени пишу код с использованием таких инструментов как TypeScript, React JS, Redux, Next JS, moduleCSS, TailwindCSS. Есть базовые знания бэкенда и опыт написания несложных RestAPI серверов с использованием таких технологий как: Nest JS, Mongo DB, PostgreSQL. А так же умею пользоваться Docker, docker-compose и Git, GitHub",
     "title-2": "Профессиональные навыки"
+  },
+  "Experience": {
+    "title": "Опыт"
   },
   "Portfolio": {
     "title": "Портфолио"

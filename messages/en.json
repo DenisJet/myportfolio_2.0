@@ -8,6 +8,9 @@
     "text": "I have skills in semantic, valid, adaptive, rubber, cross-browser, Pixel Perfect layout, using BEM, Sass, Gulp.Spend most of my time writing code using tools like TypeScript, React JS, Redux, Next JS, moduleCSS, TailwindCSS. I have basic knowledge of backend and experience in writing simple RestAPI servers using such technologies as Nest JS, Mongo DB, PostgreSQL. I also know how to use Docker, docker-compose and Git, GitHub",
     "title-2": "Professional skills"
   },
+  "Experience": {
+    "title": "Experience"
+  },
   "Portfolio": {
     "title": "Portfolio"
   },
