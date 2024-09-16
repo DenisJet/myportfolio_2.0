@@ -5,7 +5,8 @@
   },
   "About": {
     "title": "Обо мне",
-    "text": "Обладаю навыками  семантической, валидной, адаптивной, резиновой, кроcсбраузерной, Pixel Perfect вёрстки, с использованием БЭМ, Sass, Gulp, Pug, Bootstrap. Имею опыт создания SPA на чистом JavaScript/TypeScript, но большую часть своего времени пишу код с использованием таких инструментов как React JS, Redux, Next JS, moduleCSS, TailwindCSS. Есть базовые знания бэкенда и опыт написания несложных RestAPI серверов с использованием таких технологий как: Nest JS, Mongo DB, PostgreSQL. А так же умею пользоваться Docker, docker-compose и Git, GitHub",
+    "titleExperience": "Опыт",
+    "text": "Обладаю навыками семантической, валидной, адаптивной, резиновой, кроcсбраузерной, Pixel Perfect вёрстки, с использованием БЭМ, Sass, Gulp. Большую часть своего времени пишу код с использованием таких инструментов как TypeScript, React JS, Redux, Next JS, moduleCSS, TailwindCSS. Есть базовые знания бэкенда и опыт написания несложных RestAPI серверов с использованием таких технологий как: Nest JS, Mongo DB, PostgreSQL. А так же умею пользоваться Docker, docker-compose и Git, GitHub",
     "title-2": "Профессиональные навыки"
   },
   "Portfolio": {

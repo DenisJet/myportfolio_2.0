@@ -28,13 +28,11 @@ export default function About(): JSX.Element {
         </div>
         <h2 className='text-xl font-semibold mb-4'>{t('title-2')}</h2>
         <div className='p-0 mt-2 flex items-start flex-wrap'>
+          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>JavaScript</div>
+          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>TypeScript</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>HTML</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>CSS</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>SCSS</div>
-        </div>
-        <div className='p-0 mt-2 flex items-start flex-wrap'>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>JavaScript</div>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>TypeScript</div>
         </div>
         <div className='p-0 mt-2 flex items-start flex-wrap'>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>React.Js</div>
@@ -43,18 +41,10 @@ export default function About(): JSX.Element {
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Redux Toolkit</div>
         </div>
         <div className='p-0 mt-2 flex items-start flex-wrap'>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Node.Js</div>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Nest.Js</div>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>MongoDB</div>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>PostgreSQL</div>
-        </div>
-        <div className='p-0 mt-2 flex items-start flex-wrap'>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Gulp</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Webpack</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Vite</div>
-        </div>
-        <div className='p-0 mt-2 flex items-start flex-wrap'>
-          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Git/Github</div>
+          <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Git</div>
           <div className='flex bg-slate-200 py-[3px] px-[15px] mr-2 mb-2 rounded space-x-2'>Docker</div>
         </div>
       </div>
