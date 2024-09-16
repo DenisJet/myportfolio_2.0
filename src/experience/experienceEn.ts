@@ -11,7 +11,7 @@ export const experienceEn = [
   },
   {
     id: '2',
-    date: 'June 2024 - August 2024',
+    date: 'June 2024 - August 202',
     name: 'Antipoff Group',
     links: ['https://antipoff.iamrobot.xyz/'],
     position: 'Frontend developer Junior, intern',
