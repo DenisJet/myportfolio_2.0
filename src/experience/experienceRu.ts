@@ -11,7 +11,7 @@ export const experienceRu = [
   },
   {
     id: '2',
-    date: 'Июнь 2024 — Август 2024',
+    date: 'Июнь 2024 — Сентябрь 2024',
     name: 'Antipoff Group',
     links: ['https://antipoff.iamrobot.xyz/'],
     position: 'Frontend-разработчик Junior, intern',
@@ -55,8 +55,8 @@ export const experienceRu = [
     id: '5',
     date: 'Март 2022 — Сентябрь 2022',
     name: 'Clean House',
-    links: ['Веб-разработчик'],
-    position: 'React-разработчик (в рамках практической части курса)',
+    links: ['https://cleanhouse-ses.ru/'],
+    position: 'Веб-разработчик',
     stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'БЭМ', 'GULP'],
     description:
       'Разработка и создание сайта с нуля, адаптивная, семантическая верстка. Регистрация домена, размещение сайта на хостинге. Наполнение контентом.',

@@ -11,7 +11,7 @@ export const experienceEn = [
   },
   {
     id: '2',
-    date: 'June 2024 - August 2024',
+    date: 'June 2024 - September 2024',
     name: 'Antipoff Group',
     links: ['https://antipoff.iamrobot.xyz/'],
     position: 'Frontend developer Junior, intern',
@@ -44,7 +44,7 @@ export const experienceEn = [
   {
     id: '4',
     date: 'November 2022 - August 2023',
-    name: 'LLC "Interactive educational technologies"',
+    name: 'LLC "Interactive Educational Technologies"',
     links: ['https://htmlacademy.ru/'],
     position: 'React developer (as part of the practical part of the course)',
     stack: ['React.js', 'Redux', 'React-router', 'SCSS', 'Rest API'],
@@ -56,7 +56,7 @@ export const experienceEn = [
     date: 'March 2022 - September 2022',
     name: 'Clean House',
     links: ['https://cleanhouse-ses.ru/'],
-    position: 'React-разработчик (в рамках практической части курса)',
+    position: 'Web developer',
     stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'BEM', 'GULP'],
     description:
       'Development and creation of a website from scratch, adaptive, semantic layout. Domain registration, website placement on hosting. Filling with content.',
