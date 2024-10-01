@@ -16,7 +16,7 @@ export default function About(): JSX.Element {
             .map((item, i) => {
               return (
                 <p key={i} className='mb-2'>
-                  {item}
+                  {item}.
                 </p>
               );
             })}
