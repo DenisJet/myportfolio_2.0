@@ -2,6 +2,7 @@ import { experienceEn } from '@/experience/experienceEn';
 import { experienceRu } from '@/experience/experienceRu';
 import { useLocale, useTranslations } from 'next-intl';
 import Link from 'next/link';
+import React from 'react';
 
 export default function Experience() {
   const t = useTranslations('Experience');
@@ -37,7 +38,11 @@ export default function Experience() {
                         return <span key={i}>{item}, </span>;
                       })}
                   </p>
-                  <p className='font-light'>{exp.description}</p>
+                  <div className='font-light'>
+                    {exp.description.split('.').map((item, i) => {
+                      return <p key={i}>- {item}</p>;
+                    })}
+                  </div>
                 </div>
               </div>
             );
@@ -68,7 +73,11 @@ export default function Experience() {
                         return <span key={i}>{item}, </span>;
                       })}
                   </p>
-                  <p className='font-light'>{exp.description}</p>
+                  <div className='font-light'>
+                    {exp.description.split('.').map((item, i) => {
+                      return <p key={i}>- {item}</p>;
+                    })}
+                  </div>
                 </div>
               </div>
             );

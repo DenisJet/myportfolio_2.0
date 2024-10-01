@@ -7,7 +7,7 @@ export const experienceEn = [
     position: 'Frontend developer',
     stack: ['TypeScript', 'Next.js', 'Redux Toolkit', 'SCSS', 'Git Flow', 'Rest API'],
     description:
-      'Creating new, adaptive components. Fixing bugs and improving existing code, conducting code reviews. Setting up search in the application, working with REST API, working with maps - React-Leaflet API. Interacting with designers and backend developers.',
+      'Project development based on the feature-sliced ​​design methodology. Creation of new, adaptive components. Bug fixing and improvement of existing code. Adaptive layout using scss modules. Setting up search and filters in the application. Development of registration and authorization. Working with REST API. Working with maps - React-Leaflet API. Development of the admin panel. Performance optimization. Code review by junior developers. Interaction with designers, testers and backend developers. Writing documentation with a description of the project',
   },
   {
     id: '2',
@@ -17,7 +17,7 @@ export const experienceEn = [
     position: 'Frontend developer Junior, intern',
     stack: ['React.js', 'Redux', 'React-router', 'TypeScript', 'Git Flow', 'SCSS', 'Rest API', 'GraphQL', 'MaterialUi'],
     description:
-      'Participated in the development of commercial projects. Creating new, adaptive components, editing existing components, eliminating bugs. Working with Rest API, setting up backend queries using GraphQL',
+      'Participated in the development of commercial projects. Creating new, adaptive components. Editing existing components, eliminating bugs. Working with Rest API, setting up backend queries using GraphQL',
   },
   {
     id: '3',
@@ -39,7 +39,7 @@ export const experienceEn = [
       'Webpack',
     ],
     description:
-      'Creating responsive and mobile-adaptable web pages, applications and components, developing user interfaces. Finalizing and making edits, optimizing the performance and accessibility of web pages, sites and web applications by optimizing the code.',
+      'Creating responsive and mobile-adaptable web pages, applications and components, developing user interfaces. Finalizing and making edits, optimizing the performance and accessibility of web pages, sites and web applications by optimizing the code',
   },
   {
     id: '4',
@@ -59,6 +59,6 @@ export const experienceEn = [
     position: 'Web developer',
     stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'BEM', 'GULP'],
     description:
-      'Development and creation of a website from scratch, adaptive, semantic layout. Domain registration, website placement on hosting. Filling with content.',
+      'Development and creation of a website from scratch, adaptive, semantic layout. Domain registration, website placement on hosting. Filling with content',
   },
 ];
