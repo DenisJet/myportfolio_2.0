@@ -10,7 +10,17 @@ export default function About(): JSX.Element {
     <main>
       <div className='container p-4 mx-auto max-w-4xl'>
         <h1 className='gradient text-6xl font-bold mt-6 mb-6'>{t('title')}</h1>
-        <p className='font-light text-lg mb-3'>{t('text')}</p>
+        <div className='font-light text-lg mb-3'>
+          {t('text')
+            .split('.')
+            .map((item, i) => {
+              return (
+                <p key={i} className='mb-2'>
+                  {item}
+                </p>
+              );
+            })}
+        </div>
         {/* <div className='my-3 flex'>
           <Link
             href='https://assets.htmlacademy.ru/certificates/profession/39/1875311.pdf?1665069782&_ga=2.193242148.86894964.1665994142-270059664.1655958253'
