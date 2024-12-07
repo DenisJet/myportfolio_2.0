@@ -109,23 +109,26 @@ export const projectsRu = [
   //     'https://github.com/DenisJet/mytodo-server',
   //   ],
   // },
-  // {
-  //   id: '3',
-  //   link: '/ru/portfolio/live-chat',
-  //   title: 'On-Line Chat',
-  //   descriptionCard: 'Он-лайн чат',
-  //   iconsSrc: [
-  //     '/icons/icon-typescript.svg',
-  //     '/icons/icons-nest.svg',
-  //     '/icons/icon-postgresql.svg',
-  //     '/icons/socket-icon.svg',
-  //   ],
-  //   imageSrc: '/projects/online-chat.png',
-  //   description:
-  //     "Небольшой проект, он-лайн чат. Создан для знакомства с технологией WebSocket. Развернут на render.com ('Ваш свободный экземпляр будет останавливаться при бездействии, что может привести к задержке запросов на 50 секунд и более').",
-  //   uses: 'Nest JS, PostgreSQL, Prisma, WebSockets',
-  //   addLinks: ['https://online-chat-c8eu.onrender.com/chat', 'https://github.com/DenisJet/live-chat-server'],
-  // },
+  {
+    id: '3',
+    link: '/ru/portfolio/live-chat',
+    title: 'On-Line Chat',
+    descriptionCard: 'Он-лайн чат',
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-postgresql.svg',
+      '/icons/socket-icon.svg',
+    ],
+    imageSrc: '/projects/online-chat.png',
+    description:
+      "Небольшой проект, он-лайн чат. Создан для знакомства с технологией WebSocket. Развернут на render.com ('Ваш свободный экземпляр будет останавливаться при бездействии, что может привести к задержке запросов на 50 секунд и более').",
+    uses: 'Nest JS, PostgreSQL, Prisma, WebSockets',
+    addLinks: [
+      // 'https://online-chat-c8eu.onrender.com/chat',
+      'https://github.com/DenisJet/live-chat-server',
+    ],
+  },
   {
     id: '2',
     link: '/ru/portfolio/cleanhouse',

@@ -109,23 +109,26 @@ export const projectsEn = [
   //     'https://github.com/DenisJet/mytodo-server',
   //   ],
   // },
-  // {
-  //   id: '3',
-  //   link: '/en/portfolio/live-chat',
-  //   title: 'On-Line Chat',
-  //   descriptionCard: 'Live chat.',
-  //   iconsSrc: [
-  //     '/icons/icon-typescript.svg',
-  //     '/icons/icons-nest.svg',
-  //     '/icons/icon-postgresql.svg',
-  //     '/icons/socket-icon.svg',
-  //   ],
-  //   imageSrc: '/projects/online-chat.png',
-  //   description:
-  //     "A small project, live chat. Created to get acquainted with WebSocket. Deployed on render.com ('Your free instance will spin down with inactivity, which can delay requests by 50 seconds or more.')",
-  //   uses: 'Nest JS, PostgreSQL, Prisma, WebSockets',
-  //   addLinks: ['https://online-chat-c8eu.onrender.com/chat', 'https://github.com/DenisJet/live-chat-server'],
-  // },
+  {
+    id: '3',
+    link: '/en/portfolio/live-chat',
+    title: 'On-Line Chat',
+    descriptionCard: 'Live chat.',
+    iconsSrc: [
+      '/icons/icon-typescript.svg',
+      '/icons/icons-nest.svg',
+      '/icons/icon-postgresql.svg',
+      '/icons/socket-icon.svg',
+    ],
+    imageSrc: '/projects/online-chat.png',
+    description:
+      "A small project, live chat. Created to get acquainted with WebSocket. Deployed on render.com ('Your free instance will spin down with inactivity, which can delay requests by 50 seconds or more.')",
+    uses: 'Nest JS, PostgreSQL, Prisma, WebSockets',
+    addLinks: [
+      // 'https://online-chat-c8eu.onrender.com/chat',
+      'https://github.com/DenisJet/live-chat-server',
+    ],
+  },
   {
     id: '2',
     link: '/en/portfolio/cleanhouse',
