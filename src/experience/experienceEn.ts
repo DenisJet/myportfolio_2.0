@@ -43,6 +43,16 @@ export const experienceEn = [
   },
   {
     id: '4',
+    date: 'March 2023 - July 2023',
+    name: 'Clean House',
+    links: ['https://cleanhouse-ses.ru/'],
+    position: 'HTML Layout Maker/Web developer',
+    stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'BEM', 'GULP'],
+    description:
+      'Development and creation of a website from scratch, adaptive, semantic layout. Domain registration, website placement on hosting. Filling with content',
+  },
+  {
+    id: '5',
     date: 'November 2022 - August 2023',
     name: 'LLC "Interactive Educational Technologies"',
     links: ['https://htmlacademy.ru/'],
@@ -50,15 +60,5 @@ export const experienceEn = [
     stack: ['React.js', 'Redux', 'React-router', 'SCSS', 'Rest API'],
     description:
       'Developing Web Interfaces with JavaScript. Developing SPAs with Pure JavaScript. Developing Web Applications with React',
-  },
-  {
-    id: '5',
-    date: 'March 2022 - September 2022',
-    name: 'Clean House',
-    links: ['https://cleanhouse-ses.ru/'],
-    position: 'Web developer',
-    stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'BEM', 'GULP'],
-    description:
-      'Development and creation of a website from scratch, adaptive, semantic layout. Domain registration, website placement on hosting. Filling with content',
   },
 ];

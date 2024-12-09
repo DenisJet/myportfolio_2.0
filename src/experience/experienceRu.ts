@@ -43,6 +43,16 @@ export const experienceRu = [
   },
   {
     id: '4',
+    date: 'Март 2023 — июль 2023',
+    name: 'Clean House',
+    links: ['https://cleanhouse-ses.ru/'],
+    position: 'Верстальщик/Веб-разработчик',
+    stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'БЭМ', 'GULP'],
+    description:
+      'Разработка и создание сайта с нуля, адаптивная, семантическая верстка. Регистрация домена, размещение сайта на хостинге. Наполнение контентом',
+  },
+  {
+    id: '5',
     date: 'Ноябрь 2022 — Август 2023',
     name: 'ООО «Интерактивные обучающие технологии»',
     links: ['https://htmlacademy.ru/'],
@@ -50,15 +60,5 @@ export const experienceRu = [
     stack: ['React.js', 'Redux', 'React-router', 'SCSS', 'Rest API'],
     description:
       'Разработка веб-интерфейсов при помощи JavaScript. Разработка SPA на чистом JavaScript. Разработка веб-приложений на React',
-  },
-  {
-    id: '5',
-    date: 'Март 2022 — Сентябрь 2022',
-    name: 'Clean House',
-    links: ['https://cleanhouse-ses.ru/'],
-    position: 'Веб-разработчик',
-    stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'БЭМ', 'GULP'],
-    description:
-      'Разработка и создание сайта с нуля, адаптивная, семантическая верстка. Регистрация домена, размещение сайта на хостинге. Наполнение контентом',
   },
 ];
