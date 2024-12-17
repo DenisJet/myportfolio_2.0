@@ -47,7 +47,7 @@ export const experienceRu = [
     name: 'Clean House',
     links: ['https://cleanhouse-ses.ru/'],
     position: 'Верстальщик/Веб-разработчик',
-    stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'БЭМ', 'GULP'],
+    stack: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'БЭМ', 'GULP'],
     description:
       'Разработка и создание сайта с нуля, адаптивная, семантическая верстка. Регистрация домена, размещение сайта на хостинге. Наполнение контентом',
   },

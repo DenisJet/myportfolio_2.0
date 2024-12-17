@@ -47,7 +47,7 @@ export const experienceEn = [
     name: 'Clean House',
     links: ['https://cleanhouse-ses.ru/'],
     position: 'HTML Layout Maker/Web developer',
-    stack: ['HTML', 'CSS', 'SCSS', 'TypeScript', 'JavaScript', 'BEM', 'GULP'],
+    stack: ['HTML', 'CSS', 'SCSS', 'JavaScript', 'BEM', 'GULP'],
     description:
       'Development and creation of a website from scratch, adaptive, semantic layout. Domain registration, website placement on hosting. Filling with content',
   },
