@@ -5,7 +5,7 @@
   },
   "About": {
     "title": "Обо мне",
-    "text": "Обладаю навыками семантической, валидной, адаптивной, кроcсбраузерной, Pixel Perfect вёрстки, с использованием БЭМ, SCSS, Gulp. Большую часть своего времени пишу код с использованием таких инструментов как TypeScript/JavaScript, React JS, Redux, Next JS, SCSS. Есть опыт работы с Jest, GraphQL, MaterialUI, TailwindCSS, Vite, SWR, Zustand, Swagger. Понимаю принципы взаимодействия клиент-сервер и архитектуры RestApi. Есть минимальный опыт (пет проекты) написания бекенда на NestJs. А так же умею пользоваться Docker, docker-compose и Git, GitHub",
+    "text": "- Имею уверенные знания HTML, CSS, JavaScript (ES5, ES6). - Обладаю навыками семантической, адаптивной, кроcсбраузерной Pixel Perfect вёрстки (СSS, SCSS, BEM, Tailwind). - Понимаю как сделать страницу интерактивной при помощи JavaScript, работа с DOM деревом и событиями. - Обладаю навыками работы с сетью: синхронные и асинхронные операции, JSON, промисы, Fetch API. - Большую часть своего времени пишу код с использованием таких инструментов как JavaScript/TypeScript, React JS, Redux Toolkit, Next JS, SCSS, TailwindCSS. - Имею опыт создания SPA на чистом JavaScript/TypeScript. - Так же есть опыт работы с Jest, GraphQL, MaterialUI, ChadcnUI, Vite, SWR, Zustand, RTKQuery, Swagger, WordPress. - Понимаю принципы взаимодействия клиент-сервер и RESTApi. - Имею базовый опыт написания бэкенда (пет-проекты), с использованием технологий: Nest JS, Mongo DB, PostgreSQL.",
     "title-2": "Профессиональные навыки"
   },
   "Experience": {

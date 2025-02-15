@@ -5,7 +5,7 @@
   },
   "About": {
     "title": "About Me",
-    "text": "I have skills in semantic, valid, adaptive, cross-browser, Pixel Perfect layout, using BEM, SCSS, Gulp. Most of my time writing code using tools such as TypeScript/JavaScript, React JS, Redux, Next JS, SCSS. I have experience with Jest, GraphQL, MaterialUI, TailwindCSS, Vite, SWR, Zustand, Swagger. I understand the principles of client-server interaction and RestApi architecture. I have minimal experience (pet projects) of writing backend on NestJs. I also know how to use Docker, docker-compose and Git, GitHub",
+    "text": "- I have strong knowledge of HTML, CSS, JavaScript (ES5, ES6). - Have skills of semantic, adaptive, cross-browser Pixel Perfect layout (CSS, SCSS, BEM, Tailwind). - Understand how to make a page interactive with JavaScript, work with DOM tree and events. - Have networking skills: synchronous and asynchronous operations, JSON, promises, Fetch API. - Spend most of my time writing code using tools such as JavaScript/TypeScript, React JS, Redux Toolkit, Next JS, SCSS, TailwindCSS. - Have experience in creating SPA on pure JavaScript/TypeScript. - I also have experience with Jest, GraphQL, MaterialUI, ChadcnUI, Vite, SWR, Zustand, RTKQuery, Swagger, WordPress. - Understand the principles of client-server interaction and RESTApi. - Have basic experience in writing backend (pet projects), using technologies: Nest JS, Mongo DB, PostgreSQL.",
     "title-2": "Professional skills"
   },
   "Experience": {
