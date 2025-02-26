@@ -1,5 +1,26 @@
 export const projectsRu = [
   {
+    id: "9",
+    link: "/ru/portfolio/weather-app",
+    title: "Weather-app",
+    descriptionCard: "Сервис просмотра прогноза погоды.",
+    iconsSrc: [
+      "/icons/icon-typescript.svg",
+      "/icons/react_icon.svg",
+      "/icons/icon-next.svg",
+      "/icons/icon-tailwind.svg",
+      "/icons/axios_icon.svg",
+    ],
+    imageSrc: "/projects/weather-app.png",
+    description:
+      "Сервис просмотра прогноза погоды. Реализованна возможность отображать график прогноза погоды на 5 дней. Можно менять тип отображаемых данных на графике. Есть возможность менять гранулярность графика 3 часа/день. Можно добавлять два города для визуального сравнения данных на графике. Используется - https://openweathermap.org/ public API.",
+    uses: "TypeScript, ReactJS, NextJS, Axios, TailwindCSS, ChadcnUI, Recharts",
+    addLinks: [
+      "https://denisjet-weatherapp.netlify.app/",
+      "https://github.com/DenisJet/weather-app",
+    ],
+  },
+  {
     id: "8",
     link: "/ru/portfolio/pizza-app",
     title: "Pizza-app",

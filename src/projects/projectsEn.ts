@@ -1,5 +1,26 @@
 export const projectsEn = [
   {
+    id: "9",
+    link: "/ru/portfolio/weather-app",
+    title: "Weather-app",
+    descriptionCard: "Weather forecast viewer service.",
+    iconsSrc: [
+      "/icons/icon-typescript.svg",
+      "/icons/react_icon.svg",
+      "/icons/icon-next.svg",
+      "/icons/icon-tailwind.svg",
+      "/icons/axios_icon.svg",
+    ],
+    imageSrc: "/projects/weather-app.png",
+    description:
+      "Weather forecast viewing service. It is possible to display the weather forecast chart for 5 days. You can change the type of displayed data on the graph. It is possible to change the granularity of the graph 3 hours/day. You can add two cities for visual comparison of data on the graph. Used - https://openweathermap.org/ public API.",
+    uses: "TypeScript, ReactJS, NextJS, Axios, TailwindCSS, ChadcnUI, Recharts",
+    addLinks: [
+      "https://denisjet-weatherapp.netlify.app/",
+      "https://github.com/DenisJet/weather-app",
+    ],
+  },
+  {
     id: "8",
     link: "/en/portfolio/pizza-app",
     title: "Pizza-app",
