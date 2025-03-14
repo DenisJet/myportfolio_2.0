@@ -1,6 +1,6 @@
 export const projectsRu = [
   {
-    id: "9",
+    id: "10",
     link: "/ru/portfolio/weather-app",
     title: "Weather-app",
     descriptionCard: "Сервис просмотра прогноза погоды.",
@@ -21,7 +21,7 @@ export const projectsRu = [
     ],
   },
   {
-    id: "8",
+    id: "9",
     link: "/ru/portfolio/pizza-app",
     title: "Pizza-app",
     descriptionCard: "Сервис доставки пиццы.",
@@ -29,16 +29,40 @@ export const projectsRu = [
       "/icons/icon-typescript.svg",
       "/icons/react_icon.svg",
       "/icons/icon-redux.svg",
+      "/icons/iconcss.svg",
       "/icons/vite-icon.svg",
       "/icons/axios_icon.svg",
     ],
     imageSrc: "/projects/pizza-app.png",
     description:
       "Сервис доставки еды. Реализованны авторизация и регистрация пользователя, просмотр меню и каждого блюда, поиск по названию блюд, добавление блюда в корзину и оформление заказа. Присутствует полноценная работа с react-router, получение данных через react-router, а так же получение данных через через redux и хранение состояния в redux.",
-    uses: "TypeScript, ReactJS, ReduxToolkit, Vite",
+    uses: "TypeScript, ReactJS, ReduxToolkit, CSSModules, Vite",
     addLinks: [
       "https://denis-pizza.netlify.app/",
       "https://github.com/DenisJet/pizza-app",
+    ],
+  },
+  {
+    id: "8",
+    link: "/ru/portfolio/assets-portfolio",
+    title: "Assets portfolio",
+    descriptionCard: "Сервис для отображения списка активов.",
+    iconsSrc: [
+      "/icons/icon-typescript.svg",
+      "/icons/react_icon.svg",
+      "/icons/icon-redux.svg",
+      "/icons/axios_icon.svg",
+      "/icons/websocket.svg",
+      "/icons/iconsass.svg",
+      "/icons/vite-icon.svg",
+    ],
+    imageSrc: "/projects/assets-portfolio.png",
+    description:
+      "Модуль с функциями управления портфелем и обновлениями данных в реальном времени. Реализованно отображение списка активов с полями: название, количество, текущая цена, общая стоимость, изменение за 24 часа, доля в портфеле. Интегрирован WebSocket (wss://stream.binance.com:9443/stream?streams) для real-time обновления цен активов. Реализованно добавления актива через форму, удаление актива по клику, локальное сохранение активов.",
+    uses: "TypeScript, ReactJS, Redux Toolkit, Axios, WebSocket, SCSS, Vite",
+    addLinks: [
+      "https://assets-active.netlify.app/",
+      "https://github.com/DenisJet/matrix-overview",
     ],
   },
   {
@@ -49,12 +73,13 @@ export const projectsRu = [
     iconsSrc: [
       "/icons/icon-javascript.svg",
       "/icons/react_icon.svg",
+      "/icons/iconcss.svg",
       "/icons/vite-icon.svg",
     ],
     imageSrc: "/projects/my-journal.png",
     description:
       "Приложение для написание заметок. Присутствует работа со всеми основными react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo). Осуществлена работа с формой. Сохранение данных реализованно в localstorage, при помощи кастомного хука.",
-    uses: "JavaScript, ReactJS, Vite",
+    uses: "JavaScript, ReactJS, CSS, Vite",
     addLinks: [
       "https://denisjet-journal.netlify.app/",
       "https://github.com/DenisJet/MyJournal",

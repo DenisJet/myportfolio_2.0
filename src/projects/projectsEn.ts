@@ -1,7 +1,7 @@
 export const projectsEn = [
   {
-    id: "9",
-    link: "/ru/portfolio/weather-app",
+    id: "10",
+    link: "/en/portfolio/weather-app",
     title: "Weather-app",
     descriptionCard: "Weather forecast viewer service.",
     iconsSrc: [
@@ -21,7 +21,7 @@ export const projectsEn = [
     ],
   },
   {
-    id: "8",
+    id: "9",
     link: "/en/portfolio/pizza-app",
     title: "Pizza-app",
     descriptionCard: "Pizza delivery service.",
@@ -29,16 +29,40 @@ export const projectsEn = [
       "/icons/icon-typescript.svg",
       "/icons/react_icon.svg",
       "/icons/icon-redux.svg",
+      "/icons/iconcss.svg",
       "/icons/vite-icon.svg",
       "/icons/axios_icon.svg",
     ],
     imageSrc: "/projects/pizza-app.png",
     description:
       "Food delivery service. User authorization and registration, viewing the menu and each dish, search by dish name, adding a dish to the cart and placing an order are implemented. There is a full-fledged work with react-router, receiving data through react-router, as well as receiving data through redux and storing the state in redux.",
-    uses: "TypeScript, ReactJS, ReduxToolkit, Vite",
+    uses: "TypeScript, ReactJS, ReduxToolkit, CSSModules, Vite",
     addLinks: [
       "https://denis-pizza.netlify.app/",
       "https://github.com/DenisJet/pizza-app",
+    ],
+  },
+  {
+    id: "8",
+    link: "/en/portfolio/assets-portfolio",
+    title: "Assets portfolio",
+    descriptionCard: "A service for displaying a list of assets.",
+    iconsSrc: [
+      "/icons/icon-typescript.svg",
+      "/icons/react_icon.svg",
+      "/icons/icon-redux.svg",
+      "/icons/axios_icon.svg",
+      "/icons/websocket.svg",
+      "/icons/iconsass.svg",
+      "/icons/vite-icon.svg",
+    ],
+    imageSrc: "/projects/assets-portfolio.png",
+    description:
+      "Module with portfolio management functions and real-time data updates. The list of assets is displayed with the following fields: name, quantity, current price, total value, change over 24 hours, share in the portfolio. Integrated WebSocket (wss://stream.binance.com:9443/stream?streams) for real-time updates of asset prices. Implemented adding an asset via form, deleting an asset by click, local saving of assets.",
+    uses: "TypeScript, ReactJS, Redux Toolkit, Axios, WebSocket, SCSS, Vite",
+    addLinks: [
+      "https://assets-active.netlify.app/",
+      "https://github.com/DenisJet/matrix-overview",
     ],
   },
   {
@@ -49,12 +73,13 @@ export const projectsEn = [
     iconsSrc: [
       "/icons/icon-javascript.svg",
       "/icons/react_icon.svg",
+      "/icons/iconcss.svg",
       "/icons/vite-icon.svg",
     ],
     imageSrc: "/projects/my-journal.png",
     description:
       "An application for writing notes. All basic react hooks (useState, useEffect, useReducer, useRef, forwardRef, useContext, useMemo) are handled. Work with form is implemented. Data saving is implemented in localstorage, using custom hook.",
-    uses: "JavaScript, ReactJS, Vite",
+    uses: "JavaScript, ReactJS, CSS, Vite",
     addLinks: [
       "https://denisjet-journal.netlify.app/",
       "https://github.com/DenisJet/MyJournal",
